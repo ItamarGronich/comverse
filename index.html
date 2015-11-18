@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style-guide.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/mobile-header.css" />
 
 </head>
 <body>
@@ -14,27 +15,29 @@
 <!--banner-->
 <header role="banner">
 <nav role="navigation">
-    <a href="index.html"><img src="img/comverse-logo.png" alt="comverse logo" title="Comverse Logo"/></a>
-    <ul role="menu">
-        <li role="menuitem">
-            <a href="#">
-                <h4>YOUR NEEDS</h4>
-            </a>
-                <ul>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href=""><img src="img/Megamenu_Your_Needs_eBook.jpg" alt="eBook" title="eBook"></a></li>
-                </ul>
+    <label for="menuOpen" -data-mobile-bt=""></label>
+    <a href="index.html" -data-logo=""><img src="img/comverse-logo.png" alt="comverse logo" title="Comverse Logo"/></a>
+    <input type="checkbox" id="menuOpen">
+    <ul role="menu" >
+        <li role="menuitem" -data-mnu-grp="a">
+            <input type="radio" id="menuA" name="menuGroup">
+            <a href="#"><label for="menuA">YOUR NEEDS</label></a>
+            <ul>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href="">some link details</a></li>
+                <li><a href=""><img src="img/Megamenu_Your_Needs_eBook.jpg" alt="eBook" title="eBook"></a></li>
+            </ul>
         </li>
-        <li>
-            <a href="#"><h4>OUR PORTFOLIO</h4></a>
+        <li role="menuitem" -data-mnu-grp="b">
+            <input type="radio" id="menuB" name="menuGroup">
+            <a href="#"><label for="menuB">OUR PORTFOLIO</label></a>
             <ul>
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
@@ -48,8 +51,9 @@
                 <li><a href=""><img src="img/megamenu_digital_lifestyle.jpg" alt="digital lifestyle" title="digital lifestyle"></a></li>
             </ul>
         </li>
-        <li>
-            <a href="#"><h4>NEWS & MEDIA</h4></a>
+        <li role="menuitem" -data-mnu-grp="c">
+            <input type="radio" id="menuC" name="menuGroup">
+            <a href="#"><label for="menuC">NEWS & MEDIA</label></a>
             <ul>
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
@@ -63,8 +67,9 @@
                 <li><a href=""><img src="img/Megamenu_News_and_media.jpg" alt="News and Media" title="News and Media"></a></li>
             </ul>
         </li>
-        <li>
-            <a href="#"><h4>ABOUT COMVERSE</h4></a>
+        <li role="menuitem" -data-mnu-grp="d">
+            <input type="radio" id="menuD" name="menuGroup">
+            <a href="#"><label for="menuD">ABOUT COMVERSE</label></a>
             <ul>
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
@@ -79,17 +84,28 @@
             </ul>
         </li>
     </ul>
+
+    <!--search bar-->
+    <label for="searchOpen"  -data-mobile-bt=""></label>
+    <input type="checkbox" id="searchOpen"><!--checkbox & form must be direct siblings!-->
     <form action="http://google.com/search" method="get" role="search">
-        <input type="search" name="q"><button type="submit"><img src="img/searchBtn.png" alt="" ></button>
+        <input type="search" name="q">
+        <button type="submit">
+            <img src="img/searchBtn.png" alt="" >
+        </button>
     </form>
+
+    <!--lang menu-->
 </nav>
     <ul class="langMenu">
         <li>
             <ul>
                 <li>
-                    <a href="#">EN</a></li>
+                    <a href="">EN</a>
+                </li>
                 <li>
-                    <a href="#">HE</a></li>
+                    <a href="">HE</a>
+                </li>
             </ul>
         </li>
         <li>
