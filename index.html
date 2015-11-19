@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/mobile-header.css" />
+    <link rel="stylesheet" href="css/mobile-main.css">
 
 </head>
 <body>
@@ -118,14 +119,15 @@
 <main role="main">
 
     <!--radio switching widget-->
-    <article -data-articleMain="">
-        <input type="radio" name="slides">
-        <input type="radio" name="slides">
-        <input type="radio" name="slides">
-        <input type="radio" name="slides">
+
+    <article -data-article-main="">
+        <input type="radio" name="slides" id="radio-a" checked />
+        <input type="radio" name="slides" id="radio-b" />
+        <input type="radio" name="slides" id="radio-c" />
+        <input type="radio" name="slides" id="radio-d" />
         <section>
             <h1>Free Your Markets From<br/>IT Complexity</h1>
-            <p>comverse Policy Studio</p>
+            <p>comverse Policy Studios</p>
             <p>1st Ever Marketing-Oriented Policy Tool</p>
         </section>
         <section>
@@ -143,28 +145,34 @@
             <p>comverse Policy Studio</p>
             <p>1st Ever Marketing-Oriented Policy Tool</p>
         </section>
-        <button><a href="">LEARN MORE</a></button>
     </article>
+    <button -data-btn=""><a href="">LEARN MORE</a></button>
+    <nav -data-slider="">
+        <label for="radio-a" -data-mobile-bt=""></label>
+        <label for="radio-b" -data-mobile-bt=""></label>
+        <label for="radio-c" -data-mobile-bt=""></label>
+        <label for="radio-d" -data-mobile-bt=""></label>
+    </nav>
 
     <!--floating colored articles-->
-    <article -data-articleFloat="">
-        <a href="">
+    <a href="">
+        <article -data-article-float="pink">
             <h2>Comverse Is Value-Added Service Global Market Leader.</h2>
             <p>Read more</p>
-        </a>
-    </article>
-    <article -data-articleFloat="">
-        <a href="">
+        </article>
+    </a>
+    <a href="">
+    <article -data-article-float="green">
             <h2>Comverse Is Value-Added Service Global Market Leader.</h2>
             <p>Read more</p>
-        </a>
     </article>
-    <article -data-articleFloat="">
-        <a href="">
+    </a>
+    <a href="">
+    <article -data-article-float="orange">
             <h2>Comverse Is Value-Added Service Global Market Leader.</h2>
             <p>Read more</p>
-        </a>
     </article>
+    </a>
 </main>
 <!--main section END-->
 

@@ -51,8 +51,12 @@ top menu styles
 =======================*/
 
 ul[role="menu"] {
+    position: absolute;
     box-shadow: 0 1px 0.3em -.2em ;
     text-align: left;
+    background: white;
+    width: 100%;
+    z-index: 200;
 }
 
 /*layout*/
@@ -184,34 +188,14 @@ logo styles!
     transform: translate(-50%, -50%)
 }
 
-/*general styles*/
-
-/*small mobile button styles*/
-[-data-mobile-bt] {
-    display: inline-block;
-    background: radial-gradient(circle, #d6d6d6, #e6e6e6 60%);
-    border: 1px solid #C7C7C7;
-    padding: 0.5em 0.2em;
-    border-radius: .3em;
-    position: relative;
-}
-
-[-data-mobile-bt]:hover:after {
-    content: "";
-    background: rgba(0,0,0,.4);
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom: 0;
-    left: 0;
-}
 
 /*header styles*/
 header[role="banner"] {
     box-shadow: 0 1px .3em rgba(0,0,0,0.4);
     min-height: 7em;
+    background: white;
 }
 
 .langMenu {
-    display:none;
+    display: none;
 }
