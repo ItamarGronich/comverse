@@ -143,6 +143,7 @@ form[role="search"]  input[type="search"] {
     border-radius: .4em;
     border: 1px solid #C7C7C7;
     width: 100%;
+    padding: 0 1em;
     height: 2em;
     font: inherit;
     -webkit-appearance: none;
