@@ -1,6 +1,7 @@
 /*header styles*/
 
 /*menu checkbox hack*/
+
 /*hamburger icon*/
 
 label[for="menuOpen"] {
@@ -15,6 +16,7 @@ label[for="menuOpen"]:before {
     text-align: center;
 }
 
+/*radio button hack hiding*/
 #menuOpen {
     display: none;
 }
@@ -50,52 +52,61 @@ top menu styles
 
 ul[role="menu"] {
     box-shadow: 0 1px 0.3em -.2em ;
+    text-align: left;
 }
 
-
-ul[role="menu"]  li {
-    border-bottom: 1px solid #DBDBDB;
-}
-
-li[-data-mnu-grp] label[for] {
-    border-bottom: 1px solid #DBDBDB;
+/*layout*/
+li[-data-mnu-grp] label[for*="menu"] {
     display: block;
-    vertical-align: middle;
-    padding: .4em  1.5em;
-}
-
-[-data-mnu-grp] > a {
-    display: inline-block;
-    width: 100%;
     position: relative;
+}
 
+li[-data-mnu-grp] a{
+    display: inline-block;
+}
+
+/*borders*/
+li[-data-mnu-grp] label[for*="menu"],
+ul[role="menu"] >  li[-data-mnu-grp] li {
+    border-bottom: 1px solid #DBDBDB;
+}
+
+/*padding*/
+
+li[-data-mnu-grp] label[for*="menu"] a,
+ul[role="menu"] >  li[-data-mnu-grp] > ul a {
+    padding: .5em 1.5em;
 }
 
 
-[-data-mnu-grp] > a:before {
+/*hover action*/
+ul[role="menu"] a:hover {
+    text-decoration: underline;
+}
+
+
+/*arrows*/
+[-data-mnu-grp] > label:before {
     content: url('../img/navCollapseArrowRight.png');
     display: inline;
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     left: .5em;
 }
 
-[-data-mnu-grp] > input[type="radio"]:checked ~ a:before {
-    transform: rotate(90deg);
+[-data-mnu-grp] > input[type="radio"]:checked ~ label:before {
+    transform: translateY(-50%) rotate(90deg);
     transition: transform 200ms ease-in;
 }
 
+
+/*radio button hack*/
 [-data-mnu-grp] > input[type="radio"] {
     display: none;
 }
 
-[-data-mnu-grp] > ul > li a,
-[-data-mnu-grp] label {
-    padding: 0 1.5em;
-}
 
-ul[role="menu"] > li  {
-    border-bottom: none;
-}
 
 /*==============
 Search bar styles
@@ -128,12 +139,18 @@ form[role="search"] {
     width: 100%;
 }
 
-#searchOpen:checked  + form  input{
+form[role="search"]  input[type="search"] {
     border-radius: .4em;
+    border: 1px solid #C7C7C7;
     width: 100%;
     height: 2em;
     font: inherit;
     -webkit-appearance: none;
+}
+
+form[role="search"]  input[type="search"]:focus {
+    outline: none;
+    border-color: cornflowerblue;
 }
 
 #searchOpen:checked  + form button[type="submit"] {
@@ -144,12 +161,27 @@ form[role="search"] {
 /*==================
 logo styles!
 ===================*/
-[role="navigation"] > a {
-    display: block;
+/*centering*/
+[role="navigation"]  {
     text-align: center;
 }
 
+[role="navigation"] > a {
+    position: relative;
+}
+/*hiding desktop logo*/
+[role="navigation"] > a img {
+    opacity: 0;
+}
 
+/*mobile background*/
+[role="navigation"] > a:before {
+    content: url('../img/comverse-logo-medium.png');
+    position: absolute;
+    top: 0;
+    left:50%;
+    transform: translate(-50%, -50%)
+}
 
 /*general styles*/
 
