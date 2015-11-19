@@ -150,7 +150,6 @@ form[role="search"]  input[type="search"] {
     padding: 0 1em;
     height: 2em;
     font: inherit;
-    -webkit-appearance: none;
 }
 
 form[role="search"]  input[type="search"]:focus {
