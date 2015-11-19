@@ -10,10 +10,9 @@ html {
 
 /*background*/
 body {
-    background: url("../img/slide-bg-complexity.jpg") fixed no-repeat;
     background-size: auto;
     background-origin: border-box;
-    background-position: center 0;
+    background: url("../img/slide-bg-complexity.jpg") no-repeat fixed center 0;
 }
 
 h1 {
