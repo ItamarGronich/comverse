@@ -119,6 +119,7 @@ nav[-data-slider=""] {
 [-data-article-float]:hover:before {
     content: "";
     background: rgba(0,0,0,0.3);
+    border-radius: .5em;
     position: absolute;
     top: 0;
     right: 0;

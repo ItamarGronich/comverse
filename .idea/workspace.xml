@@ -2,13 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/css/mobile-main.css" description="[-data-article-float]" line="106" />
-    <bookmark url="file://$PROJECT_DIR$/css/main.css" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/css/main.css" line="42" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-solution.css" afterPath="$PROJECT_DIR$/css/mobile-solution.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-main.css" afterPath="$PROJECT_DIR$/css/mobile-main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="comverse.iws" />
@@ -35,13 +35,12 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7014218">
-                  <caret line="236" column="40" selection-start-line="236" selection-start-column="40" selection-end-line="236" selection-end-column="40" />
+                <state vertical-scroll-proportion="0.52251184">
+                  <caret line="232" column="47" selection-start-line="232" selection-start-column="47" selection-end-line="232" selection-end-column="47" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#article#0;n#li#0;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#article#0;n#li#1;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#article#0;n#li#2;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -75,8 +74,8 @@
           <file leaf-file-name="mobile-main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/mobile-main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-4.661017">
-                  <caret line="41" column="22" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="22" />
+                <state vertical-scroll-proportion="-16.050848">
+                  <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -85,8 +84,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5971564">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.49763033">
+                  <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -133,11 +132,11 @@
         <option value="$PROJECT_DIR$/components/events component.html" />
         <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/css/reset.css" />
-        <option value="$PROJECT_DIR$/css/mobile-main.css" />
         <option value="$PROJECT_DIR$/css/mobile-header.css" />
         <option value="$PROJECT_DIR$/css/mobile-section-wcdi.css" />
         <option value="$PROJECT_DIR$/css/mobile-section-solution.css" />
         <option value="$PROJECT_DIR$/css/mobile-solution.css" />
+        <option value="$PROJECT_DIR$/css/mobile-main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
@@ -535,7 +534,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448012797878</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="checking fix for mobile">
+      <created>1448018043925</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1448018043926</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -586,7 +591,8 @@
     <MESSAGE value="HUGE COMMIT!!! WORKING GREAT! USE AS ANCHOR POINT IF SOMETHING GOES WRONG! &#10;&#10;&#10;completed tasks: &#10;main section completed with all features&#10;&#10;fixed absolute positioning for drop down menu." />
     <MESSAGE value="checking a fix&#10;" />
     <MESSAGE value="Solutions Section complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solutions Section complete" />
+    <MESSAGE value="checking fix for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="checking fix for mobile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,7 +616,6 @@
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#article#0;n#li#0;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#article#0;n#li#1;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#article#0;n#li#2;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -722,21 +727,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile-main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.661017">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="22" />
+        <state vertical-scroll-proportion="-16.050848">
+          <caret line="130" column="18" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7014218">
-          <caret line="236" column="40" selection-start-line="236" selection-start-column="40" selection-end-line="236" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.52251184">
+          <caret line="232" column="47" selection-start-line="232" selection-start-column="47" selection-end-line="232" selection-end-column="47" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#article#0;n#li#0;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#article#0;n#li#1;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#article#0;n#li#2;n#ul#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -754,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5971564">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.49763033">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
