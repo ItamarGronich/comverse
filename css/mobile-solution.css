@@ -1,4 +1,4 @@
-[-data-section="WeCanDoIt"]  {
+[-data-section="solutions"]  {
     background: #1D8EC6 ;
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
@@ -6,7 +6,7 @@
 }
 
 
-[-data-section="WeCanDoIt"] h2 {
+[-data-section="solutions"] h2 {
   /*alignment*/
     text-align: center;
     padding: 1em;
@@ -20,13 +20,13 @@ button[-data-btn] {
     box-shadow: .1em .2em .2em .1em rgba(0,0,0,.6);
 }
 
-[-data-section="WeCanDoIt"] ul {
+[-data-section="solutions"] ul {
     padding: 2em;
     font-size: .7em;
     text-align: center;
 }
 
-[-data-section="WeCanDoIt"] ul > li {
+[-data-section="solutions"] ul > li {
     display: inline-block;
     max-width: 32.6%;
     position: relative;
@@ -34,10 +34,10 @@ button[-data-btn] {
     text-align: center;
 }
 
-[-data-section="WeCanDoIt"] ul > li figure {
+[-data-section="solutions"] ul > li figure {
     position: relative;
 }
-[-data-section="WeCanDoIt"] li img{
+[-data-section="solutions"] li img{
     width: 100%;
 }
 
@@ -119,11 +119,11 @@ button[-data-btn] {
     height: 85%;
 }
 
-[-data-section="WeCanDoIt"] > [-data-btn]:after {
+[-data-section="solutions"] > [-data-btn]:after {
     content: url('../img/btnArrow.png');
     margin-left: 1em;
 }
-[-data-section="WeCanDoIt"] > [-data-btn] {
+[-data-section="solutions"] > [-data-btn] {
     margin: 1em auto 3em;
     display: block;
 }
