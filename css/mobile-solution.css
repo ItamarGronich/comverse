@@ -1,0 +1,129 @@
+[-data-section="WeCanDoIt"]  {
+    background: #1D8EC6 ;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    overflow: hidden;
+}
+
+
+[-data-section="WeCanDoIt"] h2 {
+  /*alignment*/
+    text-align: center;
+    padding: 1em;
+
+    /*typography*/
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
+button[-data-btn] {
+    box-shadow: .1em .2em .2em .1em rgba(0,0,0,.6);
+}
+
+[-data-section="WeCanDoIt"] ul {
+    padding: 2em;
+    font-size: .7em;
+    text-align: center;
+}
+
+[-data-section="WeCanDoIt"] ul > li {
+    display: inline-block;
+    max-width: 32.6%;
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+}
+
+[-data-section="WeCanDoIt"] ul > li figure {
+    position: relative;
+}
+[-data-section="WeCanDoIt"] li img{
+    width: 100%;
+}
+
+
+/*[-data-figure] figure {*/
+    /*position: relative;*/
+/*}*/
+
+
+[-data-figure="analitics"] a:hover figure:after{
+    content: "";
+    background: url("../img/solution_icon_biz-analitics_hover.png") no-repeat center 0;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+[-data-figure="transform"] a:hover figure:after{
+    content: "";
+    background: url("../img/solution_icon_biz-transform_hover.png") no-repeat center 0;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+[-data-figure="diti"] a:hover figure:after{
+    content: "";
+    background: url("../img/solution_icon_diti-cx_hover.png") no-repeat center 0;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+[-data-figure="optimize"] a:hover figure:after{
+    content: "";
+    background: url("../img/solution_icon_optimize-efficnt_hover.png") no-repeat center 0;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+[-data-figure="personal"] a:hover figure:after{
+    content: "";
+    background: url("../img/solution_icon_personal_hover.png") no-repeat center 0;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+[-data-figure="money"] a:hover figure:after{
+    content: "";
+    background: url("../img/solution_icon_smart-money_hover.png") no-repeat center 0;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+[-data-section="WeCanDoIt"] > [-data-btn]:after {
+    content: url('../img/btnArrow.png');
+    margin-left: 1em;
+}
+[-data-section="WeCanDoIt"] > [-data-btn] {
+    margin: 1em auto 3em;
+    display: block;
+}
