@@ -17,13 +17,13 @@ body {
 
 [-data-section="events"] {
     background-image: url('../img/news-and-events-bg.jpg');
-    background-size: auto;
+    background-size: auto 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom center;
 }
 
-
+/*this works on every mobile except microsoft*/
 /*!*background lvl1*!*/
 /*main:before {*/
     /*content: "";*/
