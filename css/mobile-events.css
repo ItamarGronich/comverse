@@ -21,9 +21,13 @@
 /*content container*/
 [-data-events] dt + dd  > a {
     display: inline-block;
-    background: rgba(255,255,255,.4);
+    background: rgba(255,255,255,.3);
     padding: .7em;
     border-radius: .3em;
+}
+
+[-data-events] dt + dd  > a:hover {
+    background: rgba(255,255,255,.6);
 }
 
 [-data-events] {
@@ -50,6 +54,12 @@
 [-data-link] {
     color: white;
     margin-top: .5em;
+    font-size: .9em;
+    font-weight: 100;
+}
+
+[-data-link] a {
+    vertical-align: middle;
 }
 
 [-data-link] a:hover {
@@ -60,22 +70,26 @@
     content: url("../img/eventListIconNews.png");
     margin-right: .5em;
     display: inline;
+    vertical-align: middle;
 }
 
 [-data-events="news"] [-data-link] a:hover:before {
     content: url("../img/eventListIconNews_hover.png");
     margin-right: .5em;
     display: inline;
+    vertical-align: middle;
 }
 
 [-data-events="events"] [-data-link] a:before {
     content: url("../img/eventListIconEvents.png");
     margin-right: .5em;
     display: inline;
+    vertical-align: middle;
 }
 
 [-data-events="events"] [-data-link] a:hover:before {
     content: url("../img/eventListIconEvents_hover.png");
     margin-right: .5em;
     display: inline;
+    vertical-align: middle;
 }

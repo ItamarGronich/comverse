@@ -16,8 +16,8 @@ body {
 }
 
 [-data-section="events"] {
-    background-image: url('../img/news-and-events-bg.jpg');
-    background-size: auto 100%;
+    background-image: url('../img/bg-mobile-blurred.png');
+    background-size: auto auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom center;
