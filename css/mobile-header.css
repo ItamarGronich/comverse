@@ -3,6 +3,10 @@
 /*menu checkbox hack*/
 
 /*hamburger icon*/
+[role="banner"] [role="navigation"] {
+    position: relative;
+    z-index: 200;
+}
 
 label[for="menuOpen"] {
     position: absolute;
@@ -22,12 +26,12 @@ label[for="menuOpen"]:before {
 }
 
 ul[role="menu"] {
-    max-height: 0;
+    top: -1000px;
     overflow: hidden;
 }
 
 #menuOpen:checked ~ ul[role="menu"]{
-    max-height: 100%;
+    top: 100%;
 }
 
 
@@ -56,7 +60,7 @@ ul[role="menu"] {
     text-align: left;
     background: white;
     width: 100%;
-    z-index: 200;
+    z-index: -100;
 }
 
 /*layout*/

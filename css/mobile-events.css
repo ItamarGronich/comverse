@@ -1,0 +1,81 @@
+[-data-section="events"] {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+
+/*title*/
+[-data-section="events"] h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+[-data-section="events"] dt {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: .4em;
+    font-weight: 300;
+}
+
+/*content container*/
+[-data-events] dt + dd  > a {
+    display: inline-block;
+    background: rgba(255,255,255,.4);
+    padding: .7em;
+    border-radius: .3em;
+}
+
+[-data-events] {
+    display: inline-block;
+    margin: 1.5em 1.5em 1.5em 0;
+    max-width: 20em;
+    text-align: left;
+    line-height: 1.4em; ;
+}
+
+[-data-section="events"] img {
+    vertical-align: middle;
+    margin-right: 1em;
+    box-shadow: .1em .1em .3em rgba(0,0,0,.4);
+}
+
+
+[-data-section="events"] p {
+    display: inline-block;
+    max-width: 64%;
+    vertical-align: middle;
+}
+
+[-data-link] {
+    color: white;
+    margin-top: .5em;
+}
+
+[-data-link] a:hover {
+    color: black;
+}
+
+[-data-events="news"] [-data-link] a:before {
+    content: url("../img/eventListIconNews.png");
+    margin-right: .5em;
+    display: inline;
+}
+
+[-data-events="news"] [-data-link] a:hover:before {
+    content: url("../img/eventListIconNews_hover.png");
+    margin-right: .5em;
+    display: inline;
+}
+
+[-data-events="events"] [-data-link] a:before {
+    content: url("../img/eventListIconEvents.png");
+    margin-right: .5em;
+    display: inline;
+}
+
+[-data-events="events"] [-data-link] a:hover:before {
+    content: url("../img/eventListIconEvents_hover.png");
+    margin-right: .5em;
+    display: inline;
+}
