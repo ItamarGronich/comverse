@@ -8,8 +8,6 @@
     <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-main.css" afterPath="$PROJECT_DIR$/css/mobile-main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +82,8 @@
           <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49763033">
-                  <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.5473934">
+                  <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -540,7 +538,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448018043926</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="testing double fixed backgrounds.&#10; &#10; &#10; one on the &lt;body&gt; and one on the events &lt;section&gt;&#10; mobile fix version greyed out&#10;">
+      <created>1448029589326</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1448029589326</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -592,7 +596,8 @@
     <MESSAGE value="checking a fix&#10;" />
     <MESSAGE value="Solutions Section complete" />
     <MESSAGE value="checking fix for mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="checking fix for mobile" />
+    <MESSAGE value="testing double fixed backgrounds.&#10; &#10; &#10; one on the &lt;body&gt; and one on the events &lt;section&gt;&#10; mobile fix version greyed out&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing double fixed backgrounds.&#10; &#10; &#10; one on the &lt;body&gt; and one on the events &lt;section&gt;&#10; mobile fix version greyed out&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -758,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49763033">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.5473934">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
