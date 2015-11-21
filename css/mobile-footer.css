@@ -1,7 +1,7 @@
 [-data-section="footer"] {
     background: #202020 ;
     color: white;
-    border: none;
+    position: relative;
 }
 
 /*getting rid of excess menus & links*/
@@ -18,8 +18,13 @@ footer[-data-section="footer"] > :not([-data-u="mobile-menu"]) {
     padding: .5em 1em;
 }
 
-[-data-u="mobile-menu"] li:first-child {padding-top: 1em}
-[-data-u="mobile-menu"] li:first-child {padding-bottom: 1em}
+[-data-u="mobile-menu"] li:first-child {
+    padding-top: 1em
+}
+
+[-data-u="mobile-menu"] li:first-child {
+    padding-bottom: 1em
+}
 
 [-data-u="mobile-menu"] h4 {
     display:  inline-block;
@@ -55,4 +60,30 @@ footer[-data-section="footer"] > :not([-data-u="mobile-menu"]) {
 [-data-u="mobile-menu"] li:nth-last-child(3)
 a ~ a{
     margin: 0 1em;
+}
+
+[-data-u="mobile-menu"] > a:first-child {
+    background: #404040;
+    position: absolute;
+    border-radius: .4em .4em 0 0;
+    right: 1em;
+    top: -2em;
+}
+
+[-data-u="mobile-menu"] > a:first-child:before {
+    content: url('../img/back_top_tab.png');
+    display: block;
+}
+
+[-data-u="mobile-menu"] > li {
+    border-top: 1px solid #363636;
+    border-bottom: 1px solid #000000;
+}
+
+[-data-u="mobile-menu"] > li:first-child {
+    border-top: none;
+}
+
+[-data-u="mobile-menu"] > li:nth-last-child(2) {
+    border-bottom: none;
 }

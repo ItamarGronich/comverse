@@ -16,3 +16,8 @@ an individual component
 
 -make main section shorter for
 iphone4 and smaller phones
+
+- fix background for events ! !
+
+-replace down arrow on lang menu
+ with absolute position pseudo element
