@@ -1,0 +1,18 @@
+- delete img on logo. make image in css only~
+
+
+**refactoring - divide into sections:
+
+- colors with data attributes
+
+- sizes " " " "
+
+- positioning
+
+-layouts
+
+** take the grid layout out and make it
+an individual component
+
+-make main section shorter for
+iphone4 and smaller phones

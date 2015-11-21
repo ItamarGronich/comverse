@@ -1,4 +1,58 @@
 [-data-section="footer"] {
     background: #202020 ;
     color: white;
+    border: none;
+}
+
+/*getting rid of excess menus & links*/
+footer[-data-section="footer"] > :not([-data-u="mobile-menu"]) {
+    display: none;
+}
+
+[-data-u="mobile-menu"] {
+    font-weight: 100;
+}
+
+/*padding*/
+[-data-u="mobile-menu"] li {
+    padding: .5em 1em;
+}
+
+[-data-u="mobile-menu"] li:first-child {padding-top: 1em}
+[-data-u="mobile-menu"] li:first-child {padding-bottom: 1em}
+
+[-data-u="mobile-menu"] h4 {
+    display:  inline-block;
+    margin-right: 1em;
+}
+
+.copyright {
+    font-size: .8em;
+    background: white;
+    color: black;
+}
+
+/*lang menu*/
+[-data-u="mobile-menu"] select {
+    color: white;
+    background: #404040;
+    border: 1px solid #5f5f5f;
+    border-radius: .2em;
+    padding: .2em .5em;
+}
+
+[-data-u="mobile-menu"] select:focus {
+    outline: lightskyblue;
+    border: 1px solid lightskyblue;
+}
+
+[-data-u="mobile-menu"] option {
+    padding: 1em .5em;
+}
+
+/*social icons*/
+
+[-data-u="mobile-menu"] li:nth-last-child(3)
+a ~ a{
+    margin: 0 1em;
 }

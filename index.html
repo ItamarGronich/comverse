@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style-guide.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/icons.css" />
     <link rel="stylesheet" href="css/mobile-header.css" />
     <link rel="stylesheet" href="css/mobile-main.css" />
     <link rel="stylesheet" href="css/mobile-solution.css"/>
@@ -392,6 +393,7 @@
 
 <!--footer-->
 <footer role="contentinfo" -data-section="footer">
+    <h4><a href="">CONTACT US</a></h4>
     <h4><a href="">KEY SOLUTIONS</a></h4>
     <ul>
         <li><a href="">Monetizing Data</a></li>
@@ -424,9 +426,13 @@
     </ul>
 
     <article role="article">
-        <h3>LATEST BLOG POSTS</h3>
-        <p>18 July Comverse Regains Lead in Convergent Market</p>
-        <hr>
+        <header>
+            <h4>LATEST BLOG POSTS</h4>
+            <p>18 July Comverse Regains Lead in Convergent Market</p>
+            <hr>
+        </header>
+
+        <!--subscribe-->
         <form action="" role="form" method="post">
             <h4>SUBSCRIBE TO COMVERSE</h4>
             <input type="email" name="user-email">
@@ -434,7 +440,7 @@
         </form>
 
         <!--social media links-->
-        <section class="socialMedia">
+        <section -data-section="social-media">
             <a href="https://www.youtube.com/user/ComverseInc/videos"><img src="img/socialMenuIcon-youtube.png" alt="youtube"></a>
             <a href=https://twitter.com/i_am_Xura?lang=en"><img src="img/socialMenuIcon-twitter.png" alt="Comverse's twitter"></a>
             <a href="https://www.linkedin.com/company/10170759?trk=vsrp_companies_hero_name&trkInfo=VSRPsearchId%3A4536465951447857476741%2CVSRPtargetId%3A10170759%2CVSRPcmpt%3Ahero"><img src="img/socialMenuIcon-linkdin.png" alt="linkedin"></a>
@@ -443,6 +449,43 @@
 
     <!--copyright links-->
     <p class="copyright"><a href="">Copyright &copy; 2012 Comverse, inc.</a><a href="">Privacy Policy</a></p>
+
+    <!--mobile menu-->
+    <ul -data-u="mobile-menu">
+        <li>
+            <a href="">
+                <h4>CONTACT US</h4>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <h4>SUBSCRIBE TO COMVERSE NEWS</h4>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <h4> VISIT US ON:</h4>
+            </a>
+            <a -data-icon="linkedin"href="https://www.youtube.com/user/ComverseInc/videos"></a>
+            <a -data-icon="youtube" href=https://twitter.com/i_am_Xura?lang=en"></a>
+            <a -data-icon="twitter" href="https://www.linkedin.com/company/10170759?trk=vsrp_companies_hero_name&trkInfo=VSRPsearchId%3A4536465951447857476741%2CVSRPtargetId%3A10170759%2CVSRPcmpt%3Ahero"></a>
+        </li>
+        <li>
+            <a href="">
+                <label for="lang">
+                    <h4>CHANGE LANGUAGE:</h4>
+                </label>
+            </a>
+            <select name="language" id="lang">
+                <option value="">English</option>
+                <option value="">Hebrew</option>
+            </select>
+        </li>
+        <li class="copyright">
+            Copyright &copy; 2012 Comverse, inc.
+            <a href="">Privacy Policy</a>
+        </li>
+    </ul>
 </footer>
 <!--footer END-->
 
