@@ -77,3 +77,23 @@ h1 {
 [-data-mobile-bt]:hover {
     background: radial-gradient(circle, #b6b6b6, #c8c8c8 60%);
 }
+
+/*clearfix*/
+[-data-clear="left"]:after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+[-data-clear="right"]:after {
+    content: "";
+    display: block;
+    clear: right;
+}
+
+[-data-clear="both"]:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+

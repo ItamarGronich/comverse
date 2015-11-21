@@ -1,4 +1,6 @@
-- delete img on logo. make image in css only~
+- delete img on logo. make image in css only |V|
+
+-move logo code to main.css
 
 
 **refactoring - divide into sections:

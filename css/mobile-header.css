@@ -151,7 +151,7 @@ form[role="search"]  input[type="search"] {
     border-radius: .4em;
     border: 1px solid #C7C7C7;
     width: 100%;
-    padding: 0 1em;
+    padding: 0 0 0 1.5em;
     height: 2em;
     font: inherit;
 }
@@ -169,27 +169,19 @@ form[role="search"]  input[type="search"]:focus {
 /*==================
 logo styles!
 ===================*/
-/*centering*/
-[role="navigation"]  {
+nav[role="navigation"] > a {
+    display: block;
+    width: 110px;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+[-data-logo]:before {
+    content: url('../img/comverse-logo-medium.png');
+    display: block;
     text-align: center;
 }
 
-[role="navigation"] > a {
-    position: relative;
-}
-/*hiding desktop logo*/
-[role="navigation"] > a img {
-    opacity: 0;
-}
-
-/*mobile background*/
-[role="navigation"] > a:before {
-    content: url('../img/comverse-logo-medium.png');
-    position: absolute;
-    top: 0;
-    left:50%;
-    transform: translate(-50%, -50%)
-}
 
 
 /*header styles*/
@@ -199,6 +191,6 @@ header[role="banner"] {
     background: white;
 }
 
-.langMenu {
+[-data-u="lang-menu"] {
     display: none;
 }

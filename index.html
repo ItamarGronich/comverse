@@ -16,15 +16,16 @@
     <link rel="stylesheet" href="css/mobile-events.css" />
     <link rel="stylesheet" href="css/mobile-success.css" />
     <link rel="stylesheet" href="css/mobile-footer.css" />
+    <link rel="stylesheet" href="css/tablet-header.css">
 
 </head>
 <body>
 
 <!--banner-->
 <header role="banner" id="top-of-page">
-<nav role="navigation">
+<nav role="navigation" -data-clear="both">
     <label for="menuOpen" -data-mobile-bt=""></label>
-    <a href="index.html" -data-logo=""><img src="img/comverse-logo.png" alt="comverse logo" title="Comverse Logo"/></a>
+    <a href="index.html" -data-logo="" title="Comverse Homepage"></a>
     <input type="checkbox" id="menuOpen">
     <ul role="menu" >
         <li role="menuitem" -data-mnu-grp="a">
@@ -46,7 +47,7 @@
         <li role="menuitem" -data-mnu-grp="b">
             <input type="radio" id="menuB" name="menuGroup">
             <label for="menuB"><a href="">OUR PORTFOLIO</a></label>
-            <ul>
+            <ul -data-sublist="">
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
@@ -62,7 +63,7 @@
         <li role="menuitem" -data-mnu-grp="c">
             <input type="radio" id="menuC" name="menuGroup">
             <label for="menuC"><a href="">NEWS & MEDIA</a></label>
-            <ul>
+            <ul -data-sublist="">
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
@@ -78,7 +79,7 @@
         <li role="menuitem" -data-mnu-grp="d">
             <input type="radio" id="menuD" name="menuGroup">
            <label for="menuD"><a href="">ABOUT COMVERSE</a></label>
-            <ul>
+            <ul -data-sublist="">
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
                 <li><a href="">some link details</a></li>
@@ -104,21 +105,19 @@
     </form>
 
     <!--lang menu-->
-</nav>
-    <ul class="langMenu">
+    <ul -data-u="lang-menu">
         <li>
-            <ul>
-                <li>
-                    <a href="">EN</a>
-                </li>
-                <li>
-                    <a href="">HE</a>
-                </li>
-            </ul>
+            <select name="language" id="">
+                <option value="">English</option>
+                <option value="">Hebrew</option>
+            </select>
         </li>
         <li>
-            <a href="#">Customer login</a></li>
+            <a href="#">Customer login</a>
+        </li>
     </ul>
+
+</nav>
 </header>
 <!--end of banner-->
 
