@@ -1,18 +1,28 @@
-[-data-section="success"] {
+[-data-section~="success"] {
     background: #ECECEC;
-    padding: 1em 0 1em 0;
+    padding: 1em .5em 1em 0;
 }
 
-[-data-section="success"] h2 {
+[-data-section~="success"] h2 {
     font-size: 1.5em;
     font-weight: 100;
     text-align: center;
     margin: 1em;
 }
 
+/*read more button*/
+[-data-btn~="read-more"] {
+    margin: 3em auto;
+    display: block;
+}
+
+[-data-btn~="read-more"]:after {
+    content: url('../img/btnArrow.png');
+    margin-left: 1em;
+}
 
 /*grid layout*/
-[-data-section="success"] > ul {
+[-data-section~="success"]  ul {
     max-width: 940px;
     margin: 0 auto;
     padding: 1em 0 0 1em;
@@ -25,7 +35,7 @@ li[-data-grid] {
     position: relative;
     float: left;
     overflow: hidden;
-    padding: 0 1em 1em 0;
+    padding: 0 .5em .5em 0;
     width: 33.333333%;
     /*border: solid;*/
 }
@@ -80,13 +90,13 @@ li[-data-grid] article > blockquote {
 
 
 /*wide grid tile*/
-li[-data-grid="wide"] {
+li[-data-grid~="wide"] {
     width: 100%;
 }
 
 
 /*aspect ratio wide tile*/
-li[-data-grid="wide"] article:before {
+li[-data-grid~="wide"] article:before {
     content: "";
     display: inline-block;
     width: 0;
@@ -95,35 +105,92 @@ li[-data-grid="wide"] article:before {
 }
 
 /*wide grid styles*/
-li[-data-grid="wide"] article > a {
-    padding: 1.5em;
+li[-data-grid~="wide"] article > a {
+    padding: 1em;
 }
 
-li[-data-grid="wide"] img {
+li[-data-grid~="wide"] img {
     float: left;
     width: 100px;
     height: 110px;
-    margin-right: 1em;
+    margin-right: .8em;
+    margin-bottom: 1em;
     vertical-align: top;
 }
 
-li[-data-grid="wide"] img + blockquote {
-    font-size: 1.4em;
-    padding: 1em;
-    margin-left: 1em;
+li[-data-grid~="wide"] img + blockquote {
+    font-size: .91em;
+    /*margin-left: 1em;*/
     vertical-align: top;
+    word-spacing: 1px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+li[-data-grid~="wide"]  p {
+    margin-bottom: .2em;
+    font-size: .8em;
 }
 
-li[-data-grid="wide"] hr {
+/*blue person name*/
+li[-data-grid]  p:first-child {
+    color: #0D72A3;
+}
+
+li[-data-grid~="wide"] img + blockquote:before {
+    content: url('../img/quote-grey.png');
+    margin-right: .4em;
+}
+
+li[-data-grid] hr {
     clear: both;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    border-collapse: collapse;
+    margin-bottom: .5em;
 }
+
+/*company logo*/
+
+li[-data-grid~="3mob"] figcaption:before {
+    content: "";
+    background: url('../img/3mob_w108px_X_h95px.jpg')center center/90% auto ;
+    float: right;
+    width: 5em;
+    height: 2em;
+    overflow: hidden;
+}
+
+li[-data-grid~="mtl"] figcaption:before {
+    content: "";
+    background: url('../img/multilinks.jpg')center center/100% auto ;
+    float: right;
+    width: 5em;
+    height: 2em;
+    overflow: hidden;
+}
+
+
 /*medium grid tile*/
-li[-data-grid="medium"] {
+li[-data-grid~="medium"] {
     width: 66.67%;
 }
 
+li[-data-grid~="medium"] article > a {
+    padding: 1em;
+}
+
+li[-data-grid~="ttsky"] figcaption:after {
+    content: "";
+    background: url('../img/Tata_Sky_w108px_X_h95px.jpg')center center/100% auto ;
+    float: right;
+    width: 5em;
+    height: 2em;
+    overflow: hidden;
+}
+
 /*aspect ratio medium tile*/
-li[-data-grid="medium"] article:before {
+li[-data-grid~="medium"] article:before {
     content: "";
     display: inline-block;
     width: 0;
@@ -138,3 +205,4 @@ li[-data-grid]  img:only-child {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
 }
+

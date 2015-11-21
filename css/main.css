@@ -58,17 +58,11 @@ h1 {
     position:relative;
 }
 
-[-data-btn]:hover:before {
-    content: "";
-    display: block;
-    border-radius:.5em;
-    position: absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    background: rgba(0,0,0,0.5)
+[-data-btn]:hover {
+    background: #1a658d;
+    border: 1px solid #0f394f;
 }
+
 
 /*small mobile button styles*/
 [-data-mobile-bt] {
@@ -80,13 +74,6 @@ h1 {
     position: relative;
 }
 
-[-data-mobile-bt]:hover:after {
-    content: "";
-    background: rgba(0,0,0,.4);
-    position: absolute;
-    top: 0;
-    right:0;
-    bottom: 0;
-    left: 0;
-    border-radius: .3em;
+[-data-mobile-bt]:hover {
+    background: radial-gradient(circle, #b6b6b6, #c8c8c8 60%);
 }
