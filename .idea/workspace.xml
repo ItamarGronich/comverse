@@ -6,12 +6,8 @@
     <bookmark url="file://$PROJECT_DIR$/css/mobile-header.css" description="nav[role=&quot;navigation&quot;] &gt; a" line="173" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tablet-solutions.css" />
+    <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="finished SOLUTIONS on tablet">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-solution.css" afterPath="$PROJECT_DIR$/css/mobile-solution.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tablet-main.css" afterPath="$PROJECT_DIR$/css/tablet-main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +33,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.3182482">
+                <state vertical-scroll-proportion="-1.4829158">
                   <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -58,7 +54,7 @@
               <file leaf-file-name="tablet-solutions.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/tablet-solutions.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.24525547">
+                    <state vertical-scroll-proportion="0.38268793">
                       <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                       <folding />
                     </state>
@@ -92,7 +88,7 @@
               <file leaf-file-name="mobile-solution.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/mobile-solution.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.0919708">
+                    <state vertical-scroll-proportion="0.14350797">
                       <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
                       <folding />
                     </state>
@@ -691,7 +687,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448220875311</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="finished SOLUTIONS on tablet">
+      <created>1448222159404</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1448222159404</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -705,14 +707,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="164" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.4957265" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.508547" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33109018" sideWeight="0.491453" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33109018" sideWeight="0.491453" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -781,7 +783,8 @@
     <MESSAGE value="working on fist breakpoint" />
     <MESSAGE value="finished header on tablet" />
     <MESSAGE value="finished MAIN on tablet" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished MAIN on tablet" />
+    <MESSAGE value="finished SOLUTIONS on tablet" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished SOLUTIONS on tablet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -975,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile-solution.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0919708">
+        <state vertical-scroll-proportion="0.14350797">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
@@ -983,7 +986,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3182482">
+        <state vertical-scroll-proportion="-1.4829158">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1004,7 +1007,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tablet-solutions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24525547">
+        <state vertical-scroll-proportion="0.38268793">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
