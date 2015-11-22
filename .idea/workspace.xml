@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tablet-solutions.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-main.css" afterPath="$PROJECT_DIR$/css/mobile-main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-solution.css" afterPath="$PROJECT_DIR$/css/mobile-solution.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tablet-main.css" afterPath="$PROJECT_DIR$/css/tablet-main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -36,8 +37,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24742268">
-                  <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="40" />
+                <state vertical-scroll-proportion="-1.3182482">
+                  <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -51,26 +52,24 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.58428246">
+        <splitter split-orientation="horizontal" split-proportion="0.56833714">
           <split-first>
             <leaf>
-              <file leaf-file-name="tablet-header.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/tablet-header.css">
+              <file leaf-file-name="tablet-solutions.css" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/tablet-solutions.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-8.4">
-                      <caret line="102" column="13" selection-start-line="102" selection-start-column="4" selection-end-line="109" selection-end-column="5" />
-                      <folding>
-                        <marker date="1448214219465" expanded="true" signature="36:38" placeholder="{...}" />
-                      </folding>
+                    <state vertical-scroll-proportion="0.24525547">
+                      <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="tablet-main.css" pinned="false" current-in-tab="true">
+              <file leaf-file-name="tablet-main.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/tablet-main.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.73048604">
-                      <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+                    <state vertical-scroll-proportion="-17.233334">
+                      <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -90,6 +89,16 @@
                   </provider>
                 </entry>
               </file>
+              <file leaf-file-name="mobile-solution.css" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/mobile-solution.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.0919708">
+                      <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
               <file leaf-file-name="mobile-header.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/mobile-header.css">
                   <provider selected="true" editor-type-id="text-editor">
@@ -100,10 +109,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="mobile-main.css" pinned="false" current-in-tab="true">
+              <file leaf-file-name="mobile-main.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/mobile-main.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.88512516">
+                    <state vertical-scroll-proportion="-20.033333">
                       <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="30" />
                       <folding />
                     </state>
@@ -164,7 +173,6 @@
         <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/css/mobile-section-wcdi.css" />
         <option value="$PROJECT_DIR$/css/mobile-section-solution.css" />
-        <option value="$PROJECT_DIR$/css/mobile-solution.css" />
         <option value="$PROJECT_DIR$/css/mobile-success.css" />
         <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/css/icons.css" />
@@ -175,8 +183,11 @@
         <option value="$PROJECT_DIR$/css/mobile-header.css" />
         <option value="$PROJECT_DIR$/to do" />
         <option value="$PROJECT_DIR$/css/tablet-header.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/mobile-main.css" />
+        <option value="$PROJECT_DIR$/css/tablet-events.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/mobile-solution.css" />
+        <option value="$PROJECT_DIR$/css/tablet-solutions.css" />
         <option value="$PROJECT_DIR$/css/tablet-main.css" />
       </list>
     </option>
@@ -674,7 +685,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448220842659</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="finished MAIN on tablet">
+      <created>1448220875311</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1448220875311</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -688,9 +705,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="164" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.4957265" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.508547" order="1" side_tool="true" content_ui="tabs" />
@@ -763,7 +780,8 @@
     <MESSAGE value="some styling fixes" />
     <MESSAGE value="working on fist breakpoint" />
     <MESSAGE value="finished header on tablet" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished header on tablet" />
+    <MESSAGE value="finished MAIN on tablet" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished MAIN on tablet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -865,14 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile-solution.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.936019">
-          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile-success.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8552147">
@@ -913,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile-events.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0729927">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/to do">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -933,6 +935,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-62.433334">
           <caret line="151" column="26" selection-start-line="151" selection-start-column="26" selection-end-line="151" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile-main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.033333">
+          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile-events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5635036">
+          <caret line="51" column="0" selection-start-line="35" selection-start-column="20" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -955,10 +973,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile-solution.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0919708">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24742268">
-          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="40" />
+        <state vertical-scroll-proportion="-1.3182482">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -968,18 +994,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile-main.css">
+    <entry file="file://$PROJECT_DIR$/css/tablet-main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88512516">
-          <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="30" />
+        <state vertical-scroll-proportion="-17.233334">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tablet-main.css">
+    <entry file="file://$PROJECT_DIR$/css/tablet-solutions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73048604">
-          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.24525547">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
