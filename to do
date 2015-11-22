@@ -23,3 +23,8 @@ iphone4 and smaller phones
 
 -replace down arrow on lang menu
  with absolute position pseudo element
+
+ - check for bugs in the articles
+ in the article slider. the might be
+ something wrong with the size of the
+ hidden articles.
