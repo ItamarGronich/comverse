@@ -8,45 +8,46 @@
     z-index: 200;
 }
 
-label[for="menuOpen"] {
+[for="menuOpen"] {
     position: absolute;
     left: 1em;
     top: 1em;
 }
-label[for="menuOpen"]:before {
+[for="menuOpen"]:before {
     content: url('../img/hamburger-icon.png');
     display: inline-block;
     width: 2em;
     text-align: center;
 }
 
-/*radio button hack hiding*/
+/*checkbox hack hiding*/
 #menuOpen {
     display: none;
 }
 
-ul[role="menu"] {
+[role="menu"] {
     top: -1000px;
-    overflow: hidden;
 }
 
-#menuOpen:checked ~ ul[role="menu"]{
+/*checked state*/
+#menuOpen:checked ~ [role="menu"]{
     top: 100%;
 }
 
 
 /*hiding images*/
-li[-data-mnu-grp] > ul > li:last-child {
+[-data-sublist] li:first-child {
     display: none;
 }
 
 /*grouping top menu items*/
-li[-data-mnu-grp] > ul {
+[-data-sublist] {
     max-height: 0;
+    padding: 0;
     overflow: hidden;
 }
 
-li[-data-mnu-grp] > input:checked ~ ul {
+[-data-mnu-grp] > input:checked ~ ul {
     max-height: 100%;
 }
 
@@ -54,63 +55,64 @@ li[-data-mnu-grp] > input:checked ~ ul {
 top menu styles
 =======================*/
 
-ul[role="menu"] {
+[role="menu"] {
     position: absolute;
     box-shadow: 0 1px 0.3em -.2em ;
     text-align: left;
     background: white;
     width: 100%;
     z-index: -100;
+    overflow: hidden;
 }
 
 /*layout*/
-li[-data-mnu-grp] label[for*="menu"] {
+[-data-mnu-grp] label {
     display: block;
     position: relative;
 }
 
-li[-data-mnu-grp] a{
+/*so links could have height*/
+[-data-mnu-grp] a{
     display: inline-block;
 }
 
 /*borders*/
-li[-data-mnu-grp] label[for*="menu"],
-ul[role="menu"] >  li[-data-mnu-grp] li {
+[-data-mnu-grp] [for*="menu"],
+[-data-mnu-grp] li {
     border-bottom: 1px solid #DBDBDB;
 }
 
-/*padding*/
+/*padding - menu items spacing*/
 
-li[-data-mnu-grp] label[for*="menu"] a,
-ul[role="menu"] >  li[-data-mnu-grp] > ul a {
+[-data-mnu-grp] a {
     padding: .5em 1.5em;
 }
 
 
 /*hover action*/
-ul[role="menu"] a:hover {
+[role="menu"] a:hover {
     text-decoration: underline;
 }
 
 
 /*arrows*/
-[-data-mnu-grp] > label:before {
+[-data-mnu-grp] [for*="menu"]:before {
     content: url('../img/navCollapseArrowRight.png');
-    display: inline;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: .5em;
 }
 
-[-data-mnu-grp] > input[type="radio"]:checked ~ label:before {
+/*arrow spin*/
+[-data-mnu-grp] > [type="radio"]:checked ~ label:before {
     transform: translateY(-50%) rotate(90deg);
     transition: transform 200ms ease-in;
 }
 
 
 /*radio button hack*/
-[-data-mnu-grp] > input[type="radio"] {
+[-data-mnu-grp] > [type="radio"] {
     display: none;
 }
 
@@ -147,7 +149,7 @@ form[role="search"] {
     width: 100%;
 }
 
-form[role="search"]  input[type="search"] {
+form[role="search"]  input {
     border-radius: .4em;
     border: 1px solid #C7C7C7;
     width: 100%;
@@ -169,7 +171,7 @@ form[role="search"]  input[type="search"]:focus {
 /*==================
 logo styles!
 ===================*/
-nav[role="navigation"] > a {
+[role="navigation"] > a {
     display: block;
     width: 110px;
     margin: 0 auto;
@@ -185,7 +187,7 @@ nav[role="navigation"] > a {
 
 
 /*header styles*/
-header[role="banner"] {
+[role="banner"] {
     box-shadow: 0 1px .3em rgba(0,0,0,0.4);
     min-height: 7em;
     background: white;
