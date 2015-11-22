@@ -97,7 +97,7 @@
 
     [-data-u="floating-articles"] a {
         display: table-cell;
-        text-align: center;
+        text-align: left;
     }
 
     [-data-article-float] {
