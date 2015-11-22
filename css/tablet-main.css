@@ -1,0 +1,133 @@
+@media screen and (min-width: 46em ) {
+
+
+    /*frame styles*/
+    main {
+        max-width: 940px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    /*main article slider styles*/
+    [-data-article-main] {
+        background: transparent;
+        box-shadow: none;
+
+        /*typography for articles*/
+        font-size: 16px;
+        font-weight: 300;
+        text-shadow: 1px 1px 7px rgba(0,0,0,.45);
+    }
+    /*typography for articles*/
+    [-data-article-main] h1 {
+        font-size: 2.5em;
+    }
+    /*sliding article position*/
+    [-data-article-main] section{
+        top: 3em;
+        height: auto;
+    }
+
+    #radio-a:checked ~section:nth-of-type(1) {
+        left: 0;
+        top: 3em;
+    }
+
+
+    #radio-b:checked ~section:nth-of-type(2) {
+        left: 0;
+    }
+
+
+    #radio-c:checked ~section:nth-of-type(3) {
+        left: 0;
+    }
+
+
+    #radio-d:checked ~section:nth-of-type(4) {
+        left: 0;
+    }
+
+
+    /*container height fix*/
+    [-data-article-main] {
+        height: 12em;
+    }
+    /*button restyling*/
+    [-data-btn="main"] {
+        margin: 0;
+    }
+
+    /*silder radio boxes restyling*/
+    label[-data-mobile-bt] {
+        background: white;
+        height: 1em;
+        width: 1em;
+        margin-right: .5em;
+    }
+
+    [-data-mobile-bt]:hover {
+        background: #1A658D;
+    }
+
+    [for="radio-a"]:before {
+         display: none;
+     }
+    [for="radio-b"]:before {
+         display: none;
+     }
+    [for="radio-c"]:before {
+         display: none;
+     }
+    [for="radio-d"]:before {
+         display: none;
+     }
+    /*position*/
+    nav[-data-slider=""] {
+        margin: 1em 0 0 .5em;
+    }
+
+    /*floating articles*/
+    [-data-u="floating-articles"] {
+        max-width: 940px;
+        margin: 3em auto 1.5em auto;
+        overflow: hidden;
+    }
+    [-data-article-float] {
+        float: left;
+        width: 15em;
+         margin: 1em 2em;
+    }
+
+    /*typography*/
+    [-data-article-float] h2 {
+        font-size: 1.2rem;
+    }
+
+    /*floating article colors*/
+    [-data-article-float="pink"] {
+        background: rgba(209, 58, 133, 0.8);
+    }
+
+    [-data-article-float="green"] {
+        background: rgba(105, 195, 60, 0.8);
+    }
+
+    [-data-article-float="orange"] {
+        background: rgba(255, 140, 0, 0.8);
+    }
+
+
+    [-data-article-float="pink"]:hover {
+        background: #D13A85;
+    }
+
+    [-data-article-float="green"]:hover {
+        background: #69C33C;
+    }
+
+    [-data-article-float="orange"]:hover {
+        background: #FF8C00;
+    }
+
+}

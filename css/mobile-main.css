@@ -25,7 +25,7 @@ main {
 [-data-article-main] section {
     position: absolute;
     top: 1em;
-    left: 9999px;
+    left: 4000px;
     transition: left 300ms ease-in-out;
     height: 85%;
     max-width: 90%;
@@ -91,7 +91,7 @@ nav[-data-slider=""] {
 
 
 /*learn more button position*/
-[role="main"] button {
+[-data-btn="main"] {
     margin: 2em 0 9em 1em;
 }
 /*learn more button icon*/
@@ -116,16 +116,18 @@ nav[-data-slider=""] {
     text-decoration: underline;
 }
 
-[-data-article-float]:hover:before {
-    content: "";
-    background: rgba(0,0,0,0.3);
-    border-radius: .5em;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+[-data-article-float="pink"]:hover {
+    background: #992a5e;
 }
+
+[-data-article-float="green"]:hover {
+    background: #458b2c;
+}
+
+[-data-article-float="orange"]:hover {
+    background: #cf7900;
+}
+
 
 [-data-article-float]:after {
     content: url('../img/promotion-item-arrow.png');
