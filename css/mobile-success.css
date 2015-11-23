@@ -43,8 +43,12 @@
     padding: 0 .5em .5em 0;
     width: 33.333333%;
     /*border: solid;*/
+    transition: all 300ms ease-in-out;
 }
 
+[-data-grid-wrap=""] ul {
+    transition: all 500ms ease-in-out;
+}
 
 /*aspect ratio small tile*/
 [-data-grid] article:before {

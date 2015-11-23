@@ -30,4 +30,12 @@
         width: 25%
     }
 
+    [-data-grid-wrap=""] ul:nth-child(2) li:first-child {
+        transform: translateY(50%);
+    }
+
+    [-data-grid-wrap=""] ul:nth-child(2) li:first-child ~ li{
+        transform: translateY(-200%);
+    }
+
 }
