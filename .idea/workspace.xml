@@ -6,10 +6,8 @@
     <bookmark url="file://$PROJECT_DIR$/css/mobile-header.css" description="nav[role=&quot;navigation&quot;] &gt; a" line="173" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="finished EVENTS on tablet">
+    <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-success.css" afterPath="$PROJECT_DIR$/css/mobile-success.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tablet-success.css" afterPath="$PROJECT_DIR$/css/tablet-success.css" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -470,12 +468,6 @@
       <option name="number" value="Default" />
       <updated>1447764702052</updated>
     </task>
-    <task id="LOCAL-00001" summary="initial commit of the comverse website.">
-      <created>1447765048445</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1447765048445</updated>
-    </task>
     <task id="LOCAL-00002" summary="initial commit of the comverse website.">
       <created>1447765923025</created>
       <option name="number" value="00002" />
@@ -764,7 +756,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448271993208</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="finished EVENTS on tablet">
+      <created>1448280402878</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1448280403002</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
