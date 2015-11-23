@@ -173,7 +173,6 @@ logo styles!
 ===================*/
 [role="navigation"] > a {
     display: block;
-    width: 110px;
     margin: 0 auto;
     padding-top: 1em;
 }

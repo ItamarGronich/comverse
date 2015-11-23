@@ -1,0 +1,64 @@
+@media screen and (min-width: 58em) {
+
+    [role="banner"] {
+        padding-top: 0;
+    }
+
+    [role="navigation"] {
+        height: auto;
+    }
+
+    [-data-mnu-grp] {
+        padding: 1em 1em;
+    }
+
+    [-data-mnu-grp] > label {
+        font-size: 14px;
+    }
+
+    [role="navigation"] [-data-logo] {
+        float: none;
+        display: inline-block;
+    }
+
+    [role="menu"] {
+        float: none;
+        display: inline-block;
+    }
+
+    [-data-logo]:before {
+        content: url('../img/comverse-logo.png');
+        display: block;
+    }
+
+    form[role="search"] {
+        display: inline-block;
+        float: none;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 20%;
+    }
+
+    form[role="search"] input {
+        bottom: 0;
+        top: auto;
+        transform: none;
+        padding-left: .5em;
+    }
+
+    form[role="search"] button {
+        bottom: 0;
+        top: auto;
+        right: .3em;
+        transform: translateY(-25%);
+        border-right: none;
+        border-left: 1px solid darkgray;
+        background: white;
+    }
+
+    [-data-u="lang-menu"] {
+        top: 1em;
+    }
+
+}

@@ -1,0 +1,10 @@
+@media screen and (min-width: 58em) {
+
+    [-data-article-float] {
+        margin: 1em .5em;
+    }
+
+    [-data-article-float] h2 {
+        font-size: 1.5rem;
+    }
+}
