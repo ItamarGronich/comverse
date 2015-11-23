@@ -8,7 +8,7 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 body {
-    background-image: url("../img/slide-bg-complexity.jpg");
+    background-image: url("../img/bg-mobile.jpg");
     background-size: auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -16,11 +16,34 @@ body {
 }
 
 [-data-section="events"] {
-    background-image: url('../img/bg-mobile-blurred.png');
+    background-image: url('../img/bg-mobile-blurred.jpg');
     background-size: auto auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom center;
+}
+
+@media screen and (min-width: 46em) {
+    body {
+        background-image: url('../img/slide-bg-complexity.jpg');
+    }
+
+    [-data-section="events"] {
+        background-image: url("../img/bg-desktop-blurred.jpg")
+    }
+}
+
+
+@media screen and (min-width: 2160px) {
+    body {
+        background-image: url('../img/slide-bg-4k-complexity.jpg');
+    }
+
+    [-data-section="events"] {
+        background-image: url("../img/bg-4k-blurred.jpg")
+    }
+}
+
 }
 
 /*this works on every mobile except microsoft*/

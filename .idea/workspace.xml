@@ -2,16 +2,18 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/css/mobile-main.css" description="[-data-article-float]" line="106" />
-    <bookmark url="file://$PROJECT_DIR$/css/main.css" line="42" />
+    <bookmark url="file://$PROJECT_DIR$/css/main.css" line="65" />
     <bookmark url="file://$PROJECT_DIR$/css/mobile-header.css" description="nav[role=&quot;navigation&quot;] &gt; a" line="173" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/desktop-header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/desktop-main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-4k-blurred.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-desktop-blurred.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-mobile-blurred.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-mobile.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/slide-bg-4k-complexity.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile-header.css" afterPath="$PROJECT_DIR$/css/mobile-header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +39,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14007781">
+                <state vertical-scroll-proportion="0.8715953">
                   <caret line="38" column="41" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="41" />
                   <folding>
                     <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -66,177 +68,110 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.49887386">
-          <split-first>
-            <leaf>
-              <file leaf-file-name="desktop-header.css" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/css/desktop-header.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.32684824">
-                      <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="desktop-main.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/desktop-main.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-4.9">
-                      <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="tablet-success.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/tablet-success.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-21.5">
-                      <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-                      <folding>
-                        <element signature="e#72#105#0" expanded="false" />
-                        <marker date="1448280134839" expanded="true" signature="36:741" placeholder="{...}" />
-                        <marker date="1448280134839" expanded="true" signature="237:292" placeholder="{...}" />
-                        <marker date="1448280134839" expanded="true" signature="326:353" placeholder="{...}" />
-                        <marker date="1448280134839" expanded="true" signature="383:463" placeholder="{...}" />
-                        <marker date="1448280134839" expanded="true" signature="504:530" placeholder="{...}" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="tablet-solutions.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/tablet-solutions.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-7.0">
-                      <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="tablet-events.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/tablet-events.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-18.2">
-                      <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-                      <folding>
-                        <marker date="1448224351485" expanded="true" signature="36:494" placeholder="{...}" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="tablet-header.css" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/css/tablet-header.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.68093383">
-                      <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="183" selection-end-column="5" />
-                      <folding>
-                        <marker date="1448214219465" expanded="true" signature="36:38" placeholder="{...}" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mobile-footer.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/mobile-footer.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-7.7">
-                      <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="23" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="tablet-main.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/tablet-main.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-43.9">
-                      <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="110" selection-end-column="5" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/main.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-3.5">
-                      <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mobile-success.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/mobile-success.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-13.3">
-                      <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mobile-events.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/mobile-events.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-7.0">
-                      <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mobile-solution.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/mobile-solution.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-2.1">
-                      <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="tablet-footer.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/tablet-footer.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-0.0">
-                      <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mobile-header.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/mobile-header.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-3.5">
-                      <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="mobile-main.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/css/mobile-main.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="-20.033333">
-                      <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="30" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file leaf-file-name="tablet-header.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/tablet-header.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-19.6">
+                  <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="183" selection-end-column="5" />
+                  <folding>
+                    <marker date="1448214219465" expanded="true" signature="36:38" placeholder="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mobile-footer.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/mobile-footer.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.7">
+                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tablet-main.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/tablet-main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-43.9">
+                  <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="110" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6536965">
+                  <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mobile-success.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/mobile-success.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-13.3">
+                  <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mobile-events.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/mobile-events.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.0">
+                  <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mobile-solution.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/mobile-solution.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.1">
+                  <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tablet-footer.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/tablet-footer.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mobile-header.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/mobile-header.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.5">
+                  <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mobile-main.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/mobile-main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-20.033333">
+                  <caret line="163" column="0" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -288,7 +223,6 @@
         <option value="$PROJECT_DIR$/css/mobile-solution.css" />
         <option value="$PROJECT_DIR$/css/tablet-solutions.css" />
         <option value="$PROJECT_DIR$/css/tablet-events.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/medium-grid-breakpoint.css" />
         <option value="$PROJECT_DIR$/css/tablet-success.css" />
         <option value="$PROJECT_DIR$/css/mobile-success.css" />
@@ -299,6 +233,7 @@
         <option value="$PROJECT_DIR$/css/desktop-main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/desktop-header.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -369,20 +304,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="comverse">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="comverse">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="css">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -535,12 +456,6 @@
       <created>1447764702052</created>
       <option name="number" value="Default" />
       <updated>1447764702052</updated>
-    </task>
-    <task id="LOCAL-00004" summary="html banner input&#10;&#10;navingation &#10;&#10;aria roles&#10;&#10;links are dummies">
-      <created>1447782811828</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1447782811828</updated>
     </task>
     <task id="LOCAL-00005" summary="html banner input&#10;&#10;navingation &#10;&#10;aria roles&#10;&#10;links are dummies">
       <created>1447783150737</created>
@@ -830,7 +745,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448286853760</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Finished desktop breakpoint">
+      <created>1448289650916</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1448289650916</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -851,7 +772,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.4957265" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.508547" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33109018" sideWeight="0.491453" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3305187" sideWeight="0.491453" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -896,7 +817,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minor changes&#10;tooltip&#10;" />
     <MESSAGE value="miss spelled img names" />
     <MESSAGE value="Success Stoires section. html." />
     <MESSAGE value="completed footer feature in html. =)" />
@@ -921,7 +841,8 @@
     <MESSAGE value="finished EVENTS on tablet" />
     <MESSAGE value="finished Success stoires on tablet" />
     <MESSAGE value="Finished tablet breakpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished tablet breakpoint" />
+    <MESSAGE value="Finished desktop breakpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished desktop breakpoint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1083,32 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tablet-events.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.2">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1448224351485" expanded="true" signature="36:494" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tablet-solutions.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/medium-grid-breakpoint.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1122,21 +1017,6 @@
         <state vertical-scroll-proportion="-13.3">
           <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/tablet-success.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.5">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="e#72#105#0" expanded="false" />
-            <marker date="1448280134839" expanded="true" signature="36:741" placeholder="{...}" />
-            <marker date="1448280134839" expanded="true" signature="237:292" placeholder="{...}" />
-            <marker date="1448280134839" expanded="true" signature="326:353" placeholder="{...}" />
-            <marker date="1448280134839" expanded="true" signature="383:463" placeholder="{...}" />
-            <marker date="1448280134839" expanded="true" signature="504:530" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,14 +1044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/desktop-main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile-header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.5">
@@ -1182,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tablet-header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68093383">
+        <state vertical-scroll-proportion="-19.6">
           <caret line="178" column="4" selection-start-line="178" selection-start-column="4" selection-end-line="183" selection-end-column="5" />
           <folding>
             <marker date="1448214219465" expanded="true" signature="36:38" placeholder="{...}" />
@@ -1192,7 +1064,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14007781">
+        <state vertical-scroll-proportion="0.8715953">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1209,8 +1081,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/desktop-header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32684824">
+        <state vertical-scroll-proportion="0.4085603">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/desktop-main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19066148">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tablet-success.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83657587">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#72#105#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tablet-solutions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27237353">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tablet-events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7081712">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6536965">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
           <folding />
         </state>
       </provider>
