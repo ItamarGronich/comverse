@@ -1,5 +1,5 @@
 [-data-section~="success"] {
-    background: #ECECEC;
+    background: #e9e9e9;
     padding: 1em .5em 1em 0;
 }
 
@@ -30,8 +30,13 @@
     position: relative;
 }
 
+
+[-data-grid-wrap=""] ul ~ ul {
+    padding-top: 0;
+}
+
 /*general grid tile*/
-li[-data-grid] {
+[-data-grid] {
     position: relative;
     float: left;
     overflow: hidden;
@@ -42,7 +47,7 @@ li[-data-grid] {
 
 
 /*aspect ratio small tile*/
-li[-data-grid] article:before {
+[-data-grid] article:before {
     content: "";
     display: inline-block;
     width: 0;
@@ -50,14 +55,14 @@ li[-data-grid] article:before {
     /*border: solid green;*/
 }
 
-li[-data-grid] article {
+[-data-grid] article {
     overflow: hidden;
     position: relative;
     height: 100%;
     width: 100%;
 }
 
-li[-data-grid] article > a {
+[-data-grid] article > a {
     background: rgba(255,255,255,1);
     display: block;
     position: absolute;
@@ -70,13 +75,13 @@ li[-data-grid] article > a {
 }
 
 /*hover effect*/
-li[-data-grid] article:hover > a {
+[-data-grid] article:hover > a {
     top: -100%;
 }
 
 
 /*quote underneath*/
-li[-data-grid] article > blockquote {
+[-data-grid] article > blockquote {
     padding: 1.2em;
     position: absolute;
     background: #0D72A3;
@@ -90,13 +95,13 @@ li[-data-grid] article > blockquote {
 
 
 /*wide grid tile*/
-li[-data-grid~="wide"] {
+[-data-grid~="wide"] {
     width: 100%;
 }
 
 
 /*aspect ratio wide tile*/
-li[-data-grid~="wide"] article:before {
+[-data-grid~="wide"] article:before {
     content: "";
     display: inline-block;
     width: 0;
@@ -105,11 +110,11 @@ li[-data-grid~="wide"] article:before {
 }
 
 /*wide grid styles*/
-li[-data-grid~="wide"] article > a {
+[-data-grid~="wide"] article > a {
     padding: 1em;
 }
 
-li[-data-grid~="wide"] img {
+[-data-grid~="wide"] img {
     float: left;
     width: 100px;
     height: 110px;
@@ -118,7 +123,7 @@ li[-data-grid~="wide"] img {
     vertical-align: top;
 }
 
-li[-data-grid~="wide"] img + blockquote {
+[-data-grid~="wide"] img + blockquote {
     font-size: .91em;
     /*margin-left: 1em;*/
     vertical-align: top;
@@ -126,22 +131,22 @@ li[-data-grid~="wide"] img + blockquote {
     line-height: 1.5em;
     font-weight: 400;
 }
-li[-data-grid~="wide"]  p {
+[-data-grid~="wide"]  p {
     margin-bottom: .2em;
     font-size: .8em;
 }
 
 /*blue person name*/
-li[-data-grid]  p:first-child {
+[-data-grid]  p:first-child {
     color: #0D72A3;
 }
 
-li[-data-grid~="wide"] img + blockquote:before {
+[-data-grid~="wide"] img + blockquote:before {
     content: url('../img/quote-grey.png');
     margin-right: .4em;
 }
 
-li[-data-grid] hr {
+[-data-grid] hr {
     clear: both;
     height: 0;
     border: none;
@@ -152,7 +157,7 @@ li[-data-grid] hr {
 
 /*company logo*/
 
-li[-data-grid~="3mob"] figcaption:before {
+[-data-grid~="3mob"] figcaption:before {
     content: "";
     background: url('../img/3mob_w108px_X_h95px.jpg')center center/90% auto ;
     float: right;
@@ -161,7 +166,7 @@ li[-data-grid~="3mob"] figcaption:before {
     overflow: hidden;
 }
 
-li[-data-grid~="mtl"] figcaption:before {
+[-data-grid~="mtl"] figcaption:before {
     content: "";
     background: url('../img/multilinks.jpg')center center/100% auto ;
     float: right;
@@ -172,15 +177,15 @@ li[-data-grid~="mtl"] figcaption:before {
 
 
 /*medium grid tile*/
-li[-data-grid~="medium"] {
+[-data-grid~="medium"] {
     width: 66.67%;
 }
 
-li[-data-grid~="medium"] article > a {
+[-data-grid~="medium"] article > a {
     padding: 1em;
 }
 
-li[-data-grid~="ttsky"] figcaption:after {
+[-data-grid~="ttsky"] figcaption:after {
     content: "";
     background: url('../img/Tata_Sky_w108px_X_h95px.jpg')center center/100% auto ;
     float: right;
@@ -190,7 +195,7 @@ li[-data-grid~="ttsky"] figcaption:after {
 }
 
 /*aspect ratio medium tile*/
-li[-data-grid~="medium"] article:before {
+[-data-grid~="medium"] article:before {
     content: "";
     display: inline-block;
     width: 0;
@@ -199,7 +204,7 @@ li[-data-grid~="medium"] article:before {
 }
 
 /*centering only images with no text*/
-li[-data-grid]  img:only-child {
+[-data-grid]  img:only-child {
     position: absolute;
     top: 50%;
     left: 50%;
