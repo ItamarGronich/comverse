@@ -7,7 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/tablet-footer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,33 +29,33 @@
     <favorites_list name="comverse" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.23119122">
+    <splitter split-orientation="horizontal" split-proportion="0.4163498">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.6">
-                  <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.5175097">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#1;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#2;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#3;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#ul#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="medium-grid-breakpoint.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="medium-grid-breakpoint.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/medium-grid-breakpoint.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-0.0">
                   <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
                   <folding />
                 </state>
@@ -63,17 +65,32 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.47094432">
+        <splitter split-orientation="horizontal" split-proportion="0.49887386">
           <split-first>
             <leaf>
-              <file leaf-file-name="tablet-success.css" pinned="false" current-in-tab="true">
+              <file leaf-file-name="tablet-success.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/tablet-success.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.83657587">
+                    <state vertical-scroll-proportion="-21.5">
                       <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
                       <folding>
                         <element signature="e#72#105#0" expanded="false" />
+                        <marker date="1448280134839" expanded="true" signature="36:741" placeholder="{...}" />
+                        <marker date="1448280134839" expanded="true" signature="237:292" placeholder="{...}" />
+                        <marker date="1448280134839" expanded="true" signature="326:353" placeholder="{...}" />
+                        <marker date="1448280134839" expanded="true" signature="383:463" placeholder="{...}" />
+                        <marker date="1448280134839" expanded="true" signature="504:530" placeholder="{...}" />
                       </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="tablet-footer.css" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/tablet-footer.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.91828793">
+                      <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -93,7 +110,9 @@
                   <provider selected="true" editor-type-id="text-editor">
                     <state vertical-scroll-proportion="-18.2">
                       <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-                      <folding />
+                      <folding>
+                        <marker date="1448224351485" expanded="true" signature="36:494" placeholder="{...}" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -112,6 +131,16 @@
           </split-first>
           <split-second>
             <leaf>
+              <file leaf-file-name="mobile-footer.css" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/css/mobile-footer.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state vertical-scroll-proportion="0.29961088">
+                      <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="23" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
               <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/main.css">
                   <provider selected="true" editor-type-id="text-editor">
@@ -122,10 +151,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="mobile-success.css" pinned="false" current-in-tab="true">
+              <file leaf-file-name="mobile-success.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/css/mobile-success.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.59922177">
+                    <state vertical-scroll-proportion="-13.3">
                       <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
                       <folding />
                     </state>
@@ -240,10 +269,11 @@
         <option value="$PROJECT_DIR$/css/tablet-events.css" />
         <option value="$PROJECT_DIR$/css/tablet-main.css" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/medium-grid-breakpoint.css" />
         <option value="$PROJECT_DIR$/css/tablet-success.css" />
         <option value="$PROJECT_DIR$/css/mobile-success.css" />
+        <option value="$PROJECT_DIR$/css/tablet-footer.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -254,7 +284,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1600" />
-    <option name="y" value="172" />
     <option name="width" value="1600" />
     <option name="height" value="900" />
   </component>
@@ -315,6 +344,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="comverse">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="comverse">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="css">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -467,12 +510,6 @@
       <created>1447764702052</created>
       <option name="number" value="Default" />
       <updated>1447764702052</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit of the comverse website.">
-      <created>1447765923025</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1447765923025</updated>
     </task>
     <task id="LOCAL-00003" summary="some project infrastructure changes">
       <created>1447766044834</created>
@@ -762,7 +799,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448280403002</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="finished Success stoires on tablet">
+      <created>1448280423439</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1448280423439</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -775,7 +818,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1600" y="172" width="1600" height="900" extended-state="6" />
+    <frame x="-1600" y="0" width="1600" height="900" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -828,7 +871,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some project infrastructure changes" />
     <MESSAGE value="html banner input&#10;&#10;navingation &#10;&#10;aria roles&#10;&#10;links are dummies" />
     <MESSAGE value="minor changes&#10;tooltip&#10;" />
     <MESSAGE value="miss spelled img names" />
@@ -853,7 +895,8 @@
     <MESSAGE value="finished MAIN on tablet" />
     <MESSAGE value="finished SOLUTIONS on tablet" />
     <MESSAGE value="finished EVENTS on tablet" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished EVENTS on tablet" />
+    <MESSAGE value="finished Success stoires on tablet" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Success stoires on tablet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -878,11 +921,11 @@
             <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#2;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#3;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -968,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile-footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2674847">
-          <caret line="88" column="1" selection-start-line="88" selection-start-column="1" selection-end-line="88" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/icons.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7511848">
@@ -1046,7 +1081,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.2">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
+          <folding>
+            <marker date="1448224351485" expanded="true" signature="36:494" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,24 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.6">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#3;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/medium-grid-breakpoint.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1102,7 +1121,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile-success.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59922177">
+        <state vertical-scroll-proportion="-13.3">
           <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding />
         </state>
@@ -1110,10 +1129,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tablet-success.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83657587">
+        <state vertical-scroll-proportion="-21.5">
           <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="e#72#105#0" expanded="false" />
+            <marker date="1448280134839" expanded="true" signature="36:741" placeholder="{...}" />
+            <marker date="1448280134839" expanded="true" signature="237:292" placeholder="{...}" />
+            <marker date="1448280134839" expanded="true" signature="326:353" placeholder="{...}" />
+            <marker date="1448280134839" expanded="true" signature="383:463" placeholder="{...}" />
+            <marker date="1448280134839" expanded="true" signature="504:530" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29961088">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/tablet-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.91828793">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5175097">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
