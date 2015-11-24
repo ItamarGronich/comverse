@@ -1,6 +1,6 @@
 - delete img on logo. make image in css only |V|
 
--move logo code to main.css
+-move logo code to utilities.css
 
 
 **refactoring - divide into sections:
@@ -19,7 +19,7 @@ an individual component
 -make main section shorter for
 iphone4 and smaller phones
 
-- fix background for events ! !
+- fix background for events ! ! |V|
 
 -replace down arrow on lang menu
  with absolute position pseudo element
@@ -28,3 +28,6 @@ iphone4 and smaller phones
  in the article slider. the might be
  something wrong with the size of the
  hidden articles.
+
+
+ -add padding-right to the email input on the subscribe form

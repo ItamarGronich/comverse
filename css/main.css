@@ -44,7 +44,7 @@ body {
     }
 }
 
-}
+
 
 /*this works on every mobile except microsoft*/
 /*background lvl1*/
@@ -111,8 +111,8 @@ h1 {
 [-data-clear="right"]:after {
     content: "";
     display: block;
-    clear: right;
-6
+    clear: right
+}
 
 [-data-clear="both"]:after {
     content: "";

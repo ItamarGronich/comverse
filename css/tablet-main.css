@@ -112,7 +112,7 @@
 
     /*floating article colors*/
     [-data-article-float="pink"] {
-        background: rgba(209, 58, 133, 0.8);
+        background: rgba(209, 58, 133,.8);
     }
 
     [-data-article-float="green"] {

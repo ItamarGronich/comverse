@@ -8,12 +8,10 @@
         height: auto;
     }
 
-    [-data-mnu-grp] {
-        padding: 1em 1em;
-    }
 
     [-data-mnu-grp] > label {
         font-size: 14px;
+        position: relative;
     }
 
     [role="navigation"] [-data-logo] {
@@ -26,6 +24,12 @@
         display: inline-block;
     }
 
+    [-data-mnu-grp] > label:before {
+        content: "";
+        display: inline-block;
+        padding-bottom: 3em;
+    }
+
     [-data-logo]:before {
         content: url('../img/comverse-logo.png');
         display: block;
@@ -34,9 +38,6 @@
     form[role="search"] {
         display: inline-block;
         float: none;
-        position: absolute;
-        right: 0;
-        bottom: 0;
         width: 20%;
     }
 
