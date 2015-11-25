@@ -7,16 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a015e35-9044-466e-b147-2dfb4f21a9a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/colors.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style-guide.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/desktop-header.css" afterPath="$PROJECT_DIR$/css/desktop-header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-guide.css" afterPath="$PROJECT_DIR$/css/style-guide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tablet-footer.css" afterPath="$PROJECT_DIR$/css/tablet-footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/tablet-main.css" afterPath="$PROJECT_DIR$/css/tablet-main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/to do" afterPath="$PROJECT_DIR$/to do" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style-guide.html" afterPath="$PROJECT_DIR$/style-guide.html" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +53,8 @@
           <file leaf-file-name="style-guide.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style-guide.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.58248174">
-                  <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+                <state vertical-scroll-proportion="0.49051094">
+                  <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
                   <folding />
                 </state>
               </provider>
@@ -187,7 +179,7 @@
           <file leaf-file-name="colors.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/colors.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="3.3722627">
+                <state vertical-scroll-proportion="3.280292">
                   <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
                   <folding />
                 </state>
@@ -503,12 +495,6 @@
       <option name="number" value="Default" />
       <updated>1447764702052</updated>
     </task>
-    <task id="LOCAL-00006" summary="minor changes&#10;tooltip&#10;">
-      <created>1447783696177</created>
-      <option name="number" value="00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1447783696177</updated>
-    </task>
     <task id="LOCAL-00007" summary="minor changes&#10;tooltip&#10;">
       <created>1447784716228</created>
       <option name="number" value="00007" />
@@ -797,7 +783,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448291472934</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="started refactoring and style guide">
+      <created>1448371148430</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1448371148430</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TodoView">
@@ -811,10 +803,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1608" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1913815" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.4957265" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.508547" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3305187" sideWeight="0.491453" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -823,7 +816,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49125168" sideWeight="0.491453" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.4957265" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -863,7 +855,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Success Stoires section. html." />
     <MESSAGE value="completed footer feature in html. =)" />
     <MESSAGE value="started to develop mobile site's layout. header styles and functionality. all&#10;CSS !" />
     <MESSAGE value="final tweaks to the header and menu. replaced bad practices in menu. design is more uniform. search bar is now the same across browsers" />
@@ -888,7 +879,8 @@
     <MESSAGE value="Finished tablet breakpoint" />
     <MESSAGE value="Finished desktop breakpoint" />
     <MESSAGE value="Finished Complete home page.&#10;&#10;included 4k background support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Complete home page.&#10;&#10;included 4k background support" />
+    <MESSAGE value="started refactoring and style guide" />
+    <option name="LAST_COMMIT_MESSAGE" value="started refactoring and style guide" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1273,7 +1265,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/colors.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3722627">
+        <state vertical-scroll-proportion="3.280292">
           <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
           <folding />
         </state>
@@ -1281,8 +1273,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style-guide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58248174">
-          <caret line="52" column="60" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.49051094">
+          <caret line="52" column="66" selection-start-line="52" selection-start-column="66" selection-end-line="52" selection-end-column="66" />
           <folding />
         </state>
       </provider>
