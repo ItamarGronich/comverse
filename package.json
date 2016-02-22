@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/ItamarGronich/comverse#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-minify-inline": "^0.2.0",
+    "gulp-smoosher": "0.0.9"
   }
 }
