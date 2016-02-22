@@ -1,0 +1,41 @@
+@media screen and (min-width: 50em) {
+
+    [-data-section~="success"] h2{
+        font-size: 2.5em;
+    }
+
+
+    /*container*/
+    [-data-grid-wrap=""] {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+
+    [-data-grid~="medium"] {
+        width: 100%;
+        /*display: none;*/
+    }
+
+    [-data-grid~="medium"] ~ li {
+        width: 50%;
+    }
+
+    [-data-grid-wrap=""] ul {
+        width: 37.5%;
+        display: inline-block;
+        padding: 0;
+    }
+
+    [-data-grid-wrap=""] ul:last-child {
+        width: 25%
+    }
+
+    [-data-grid-wrap=""] ul:nth-child(2) li:first-child {
+        transform: translateY(50%);
+    }
+
+    [-data-grid-wrap=""] ul:nth-child(2) li:first-child ~ li{
+        transform: translateY(-200%);
+    }
+
+}

@@ -1,0 +1,205 @@
+@media screen and (min-width: 46em) {
+    /*removing menu icons*/
+    [role="navigation"] > label {
+        display: none;
+    }
+
+    /*layout of header*/
+    [role="banner"] {
+        padding-top: 2em;
+        /*header font color*/
+        color: #7a7a7a;
+
+        /*typography*/
+        font-size: .8em;
+    }
+
+    /*nav bar styles*/
+    [role="navigation"] {
+        max-width: 940px;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        height: 3.7em;
+    }
+
+    /*logo flow and placement*/
+    [role="navigation"] [-data-logo] {
+        float: left;
+        display: inline-block;
+        padding-top: 0;
+        margin-right: 1em;
+    }
+
+    /*menu flow and placement*/
+    [role="menu"] {
+        position: static;
+        top: auto;
+        float: left;
+        width: auto;
+        height: 100%;
+        overflow: visible;
+        /*disabling old styles*/
+        box-shadow: none;
+    }
+
+    /*menu item layout*/
+    [-data-mnu-grp] {
+        position: static;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 1em;
+        height: 100%;
+    }
+
+    /*aligning menu to center*/
+    [-data-mnu-grp] [for*="menu"]:before {
+        content: "";
+        display: inline-block;
+        position: static;
+        height: 100%;
+        vertical-align: middle;
+        transform: none;
+    }
+
+    [-data-mnu-grp] [for*="menu"] {
+        vertical-align: middle;
+        display: inline-block;
+        height: 100%;
+    }
+
+    /*removing unnecessary borders */
+    [-data-mnu-grp] [for*="menu"],
+    [-data-mnu-grp] li {
+        border-bottom: none;
+    }
+
+    /*removing mobile menu spacing*/
+    [-data-mnu-grp] [for*="menu"] a {
+        padding: 0;
+    }
+
+    /*new submenu styles */
+    [-data-sublist] {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 20em;
+        background: white;
+        box-shadow: 1em 2em 2em rgba(0,0,0,.3);
+    }
+
+    [-data-sublist] li {
+        display: inline-block;
+        width: 26%;
+    }
+
+    [-data-sublist] li a {
+        padding: 0 0 1em 0;
+    }
+
+    /*displaying images*/
+    [-data-sublist] li:first-child {
+        display: block;
+        position: relative;
+
+        /*positioning*/
+        float: right;
+        width: 47%;
+    }
+
+    [-data-sublist] li:first-child a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    [-data-sublist] li:first-child:before {
+        content: url("../img/line_divider_video.png");
+    }
+
+    /*disabling radio button hack*/
+    [-data-mnu-grp] > input:checked ~ ul {
+        max-height: 0;
+    }
+
+    /*hover menu open*/
+    [-data-mnu-grp] [for*="menu"]:hover ~ ul {
+        max-height: none;
+        padding: 1em 0 0 2em;
+    }
+
+    [-data-sublist]:hover {
+        max-height: none;
+        padding: 1em 0 0 2em;
+    }
+
+    [-data-mnu-grp]:hover {
+        border: 1px solid darkgray;
+        border-bottom: none;
+    }
+
+    /*search bar*/
+    form[role="search"] {
+        display: block;
+        width: 12%;
+        min-width: 4em;
+        float: right;
+        position: relative;
+        height: 100%;
+        margin-right: 1em;
+    }
+
+    form[role="search"] button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        border-right: 1px solid darkgray;
+    }
+
+    form[role="search"] input {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0 0 0 2.3em;
+    }
+
+    form[role="search"]:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    /*language menu*/
+    [-data-u="lang-menu"] {
+        display: block;
+        position: absolute;
+        right: 1em;
+        top: -1em;
+    }
+
+    [-data-u="lang-menu"] select {
+        border: none;
+        color: inherit;
+    }
+
+    [-data-u="lang-menu"] select:focus {
+        outline: lightskyblue;
+        border: 1px solid lightskyblue;
+    }
+
+    [-data-u="lang-menu"] li {
+        display: inline-block;
+    }
+
+    [-data-u="lang-menu"] li:first-child {
+        border-right: 1px solid darkgray;
+        padding-right: .5em;
+        margin-right: .5em;
+    }
+}

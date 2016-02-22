@@ -1,0 +1,30 @@
+{
+  "name": "comverse",
+  "version": "1.0.0",
+  "description": "The comverse website homepage. HTML & CSS only. ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItamarGronich/comverse.git"
+  },
+  "keywords": [
+    "['HTML5'",
+    "'Plain",
+    "CSS'",
+    "'AMCSS']"
+  ],
+  "author": "'Itamar Gronich'",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItamarGronich/comverse/issues"
+  },
+  "homepage": "https://github.com/ItamarGronich/comverse#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-inline": "^0.2.0",
+    "gulp-smoosher": "0.0.9"
+  }
+}

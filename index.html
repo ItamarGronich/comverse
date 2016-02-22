@@ -2,104 +2,529 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
     <title>Comverse</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css" />
+<!--smoosh-->
+
+
+    <!-- build:css css/style.min.css-->
     <link rel="stylesheet" href="css/style-guide.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/icons.css" />
+    <link rel="stylesheet" href="css/mobile-header.css" />
+    <link rel="stylesheet" href="css/mobile-main.css" />
+    <link rel="stylesheet" href="css/mobile-solution.css"/>
+    <link rel="stylesheet" href="css/mobile-events.css" />
+    <link rel="stylesheet" href="css/mobile-success.css" />
+    <link rel="stylesheet" href="css/mobile-footer.css" />
+    <link rel="stylesheet" href="css/tablet-header.css" />
+    <link rel="stylesheet" href="css/tablet-main.css" />
+    <link rel="stylesheet" href="css/tablet-solutions.css" />
+    <link rel="stylesheet" href="css/tablet-events.css" />
+    <link rel="stylesheet" href="css/medium-grid-breakpoint.css" />
+    <link rel="stylesheet" href="css/tablet-success.css" />
+    <link rel="stylesheet" href="css/tablet-footer.css" />
+    <link rel="stylesheet" href="css/desktop-header.css" />
+    <link rel="stylesheet" href="css/desktop-main.css" />
+    <!-- endbuild -->
+
+
+<!--endsmoosh-->
+
 </head>
 <body>
 
 <!--banner-->
-<header role="banner">
-<nav role="navigation">
-    <a href="index.html"><img src="img/comverse-logo.png" alt="comverse logo" title="Comverse Logo"/></a>
-    <ul role="menu">
-        <li role="menuitem">
-            <a href="#">
-                <h4>YOUR NEEDS</h4>
-            </a>
-                <ul>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href="">some link details</a></li>
-                    <li><a href=""><img src="img/megamenu_Your_Needs_eBook.jpg" alt="eBook" title="eBook"></a></li>
-                </ul>
+<header role="banner" id="top-of-page">
+<nav role="navigation" -data-clear="both">
+    <label for="menuOpen" -data-mobile-bt=""></label>
+    <a href="index.html" -data-logo="" title="Comverse Homepage"></a>
+    <input type="checkbox" id="menuOpen">
+    <ul role="menu" >
+        <li role="menuitem" -data-mnu-grp="a">
+            <input type="radio" id="menuA" name="menuGroup">
+            <label for="menuA"><a href="">YOUR NEEDS</a></label>
+            <ul -data-sublist="">
+                <li><a href=""><img src="img/Megamenu_Your_Needs_eBook.jpg" alt="eBook" title="eBook"></a></li>
+                <li><a href="">Smart Monetization</a></li>
+                <li><a href="">Digital Customer Experience</a></li>
+                <li><a href="">Personalized choice & Control</a></li>
+                <li><a href="">Optimization and Efficiency</a></li>
+                <li><a href="">Businees Transformation</a></li>
+                <li><a href="">Buissiness Stimulating analytics</a></li>
+                <li><a href="">Customer Evolution</a></li>
+            </ul>
         </li>
-        <li>
-            <a href="#"><h4>OUR PORTFOLIO</h4></a>
-            <ul>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
+        <li role="menuitem" -data-mnu-grp="b">
+            <input type="radio" id="menuB" name="menuGroup">
+            <label for="menuB"><a href="">OUR PORTFOLIO</a></label>
+            <ul -data-sublist="">
                 <li><a href=""><img src="img/megamenu_digital_lifestyle.jpg" alt="digital lifestyle" title="digital lifestyle"></a></li>
+                <li><a href="">BBS - Buisiness Support Systems</a></li>
+                <li><a href="">Converged BBS</a></li>
+                <li><a href="">Active Customer Management</a></li>
+                <li><a href="">Online & Converged Charging</a></li>
+                <li><a href="">Actionable intelligence</a></li>
+                <li><a href="">Social Media Gateway</a></li>
+                <li><a href="">Mediation @ Settlements</a></li>
+                <li><a href="">Prepaid Billing</a></li>
+                <li><a href="">Policy</a></li>
+                <li><a href="">Policy Management</a></li>
+                <li><a href="">Policy Enforcement</a></li>
+                <li><a href="">Digital Services</a></li>
+                <li><a href="">Evolved Communication Suite</a></li>
+                <li><a href="">Value Added Services</a></li>
+                <li><a href="">Enterprise IP Communications</a></li>
+                <li><a href="">Cloud Pffering</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Managed Services</a></li>
+                <li><a href="">Learning & Certification Services</a></li>
             </ul>
         </li>
-        <li>
-            <a href="#"><h4>NEWS & MEDIA</h4></a>
-            <ul>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href=""><img src="img/megamenu_News_and_media.jpg" alt="News and Media" title="News and Media"></a></li>
+        <li role="menuitem" -data-mnu-grp="c">
+            <input type="radio" id="menuC" name="menuGroup">
+            <label for="menuC"><a href="">NEWS & MEDIA</a></label>
+            <ul -data-sublist="">
+                <li><a href=""><img src="img/Megamenu_News_and_media.jpg" alt="News and Media" title="News and Media"></a></li>
+                <li><a href="">Press Releases</a></li>
+                <li><a href="">Awards</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">Multimedia & Webinars</a></li>
+                <li><a href="">In The News</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Success Stories</a></li>
+                <li><a href="">Articles and Papers</a></li>
             </ul>
         </li>
-        <li>
-            <a href="#"><h4>ABOUT COMVERSE</h4></a>
-            <ul>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href="">some link details</a></li>
-                <li><a href=""><img src="img/megamenu_About_Comverse_by_the_numbers.jpg" alt="comverse by the numbers" title="comverse by the numbers"></a></li>
+        <li role="menuitem" -data-mnu-grp="d">
+            <input type="radio" id="menuD" name="menuGroup">
+           <label for="menuD"><a href="">ABOUT COMVERSE</a></label>
+            <ul -data-sublist="">
+                <li><a href=""><img src="img/Megamenu_About_Comverse_by_the_numbers.jpg" alt="comverse by the numbers" title="comverse by the numbers"></a></li>
+                <li><a href="">Overview</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Management</a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Investors</a></li>
+                <li><a href="">Valure & Corporate Resposibility</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">Industry Involvement</a></li>
+                <li><a href="">Careers</a></li>
             </ul>
         </li>
     </ul>
+
+    <!--search bar-->
+    <label for="searchOpen"  -data-mobile-bt=""></label>
+    <input type="checkbox" id="searchOpen"><!--checkbox & form must be direct siblings!-->
     <form action="http://google.com/search" method="get" role="search">
-        <input type="search" name="q"><button type="submit"><img src="img/searchBtn.png" alt="" ></button>
+        <input type="search" name="q">
+        <button type="submit">
+            <img src="img/searchBtn.png" alt="" >
+        </button>
     </form>
-</nav>
-    <ul class="langMenu">
+
+    <!--lang menu-->
+    <ul -data-u="lang-menu">
         <li>
-            <ul>
-                <li>
-                    <a href="#">EN</a></li>
-                <li>
-                    <a href="#">HE</a></li>
-            </ul>
+            <select name="language" id="">
+                <option value="">English</option>
+                <option value="">Hebrew</option>
+            </select>
         </li>
         <li>
-            <a href="#">Customer login</a></li>
+            <a href="#">Customer login</a>
+        </li>
     </ul>
+
+</nav>
 </header>
 <!--end of banner-->
 
-
 <!--main section-->
-<main></main>
+<main role="main">
+
+    <!--radio switching widget-->
+
+    <article -data-article-main="">
+        <input type="radio" name="slides" id="radio-a" checked />
+        <input type="radio" name="slides" id="radio-b" />
+        <input type="radio" name="slides" id="radio-c" />
+        <input type="radio" name="slides" id="radio-d" />
+        <section>
+            <h1>Free Your Markets From<br/>IT Complexity</h1>
+            <p>comverse Policy Studios</p>
+            <p>1st Ever Marketing-Oriented Policy Tool</p>
+        </section>
+        <section>
+            <h1>Free Your Markets From<br/>IT Complexity</h1>
+            <p>comverse Policy Studio</p>
+            <p>1st Ever Marketing-Oriented Policy Tool</p>
+        </section>
+        <section>
+            <h1>Free Your Markets From<br/>IT Complexity</h1>
+            <p>comverse Policy Studio</p>
+            <p>1st Ever Marketing-Oriented Policy Tool</p>
+        </section>
+        <section>
+            <h1>Free Your Markets From<br/>IT Complexity</h1>
+            <p>comverse Policy Studio</p>
+            <p>1st Ever Marketing-Oriented Policy Tool</p>
+        </section>
+    </article>
+    <button -data-btn="main"><a href="">LEARN MORE</a></button>
+    <nav -data-slider="">
+        <label for="radio-a" -data-mobile-bt=""></label>
+        <label for="radio-b" -data-mobile-bt=""></label>
+        <label for="radio-c" -data-mobile-bt=""></label>
+        <label for="radio-d" -data-mobile-bt=""></label>
+    </nav>
+
+    <!--floating colored articles-->
+    <section -data-u="floating-articles">
+        <a href="">
+        <article -data-article-float="pink">
+            <h2>Comverse Is Value-Added Service Global Market Leader.</h2>
+            <p>Read more</p>
+        </article>
+    </a>
+    <a href="">
+    <article -data-article-float="green">
+            <h2>Comverse Is Value-Added Service Global Market Leader.</h2>
+            <p>Read more</p>
+    </article>
+    </a>
+    <a href="">
+    <article -data-article-float="orange">
+            <h2>Comverse Is Value-Added Service Global Market Leader.</h2>
+            <p>Read more</p>
+    </article>
+    </a>
+    </section>
+</main>
 <!--main section END-->
+
+<!--what can we do for you section-->
+<section role="document" -data-section="solutions">
+    <h2>WHAT CAN WE DO FOR YOU?</h2>
+    <ul>
+        <li -data-figure="analitics">
+            <a href="">
+                <figure><img src="./img/solution_icon_biz-analitics.png" alt="Data monetization">
+                    <figcaption>Data monetization</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li -data-figure="transform">
+            <a href="">
+                <figure><img src="./img/solution_icon_biz-transform.png" alt="Machine to machine">
+                    <figcaption>Machine to machine<br>(M2M)</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li -data-figure="diti">
+            <a href="">
+                <figure><img src="./img/solution_icon_diti-cx.png" alt="Over-th-top">
+                    <figcaption>Over-th-top<br>(OTT)</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li -data-figure="optimize">
+            <a href="">
+                <figure><img src="./img/solution_icon_optimize-efficnt.png" alt="Cloud computing">
+                    <figcaption>Cloud computing</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li -data-figure="personal">
+            <a href="">
+                <figure><img src="./img/solution_icon_personal.png" alt="Managed services">
+                    <figcaption>Managed services</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li -data-figure="money">
+            <a href="">
+                <figure ><img src="./img/solution_icon_smart-money.png" alt="Social Media">
+                    <figcaption>Social Media</figcaption>
+                 </figure>
+            </a>
+        </li>
+    </ul>
+    <button -data-btn=""><a href="">See all of our solutions</a></button>
+</section>
+<!--what can we do for you section END-->
+
+<!--Events section-->
+<section role="document" -data-section="events">
+    <h2>WHAT'S HAPPENING AT COMVERSE?</h2>
+    <section -data-u="event">
+        <article -data-events="news">
+        <dl>
+            <dt><a href="">NEWS</a></dt>
+            <dd>
+                <a href="">
+                    <img src="img/event-date.png" alt="" />
+                    <p>Comverse Regain Lead in Convergent Charging Market Regains Lead in</p>
+                </a>
+            </dd>
+            <dd -data-link=""><a href="">All News</a></dd>
+        </dl>
+    </article>
+    <article -data-events="events">
+        <dl>
+            <dt><a href="">EVENTS</a></dt>
+            <dd>
+                <a href="">
+                    <img src="img/event-date.png" alt="" />
+                    <p>Comverse Regain Lead in Convergent Charging Market Regains Lead in</p>
+                </a>
+            </dd>
+            <dd -data-link=""><a href="">All Events</a></dd>
+        </dl>
+    </article>
+    <article -data-events="events">
+        <dl>
+            <dt><a href=""></a></dt>
+            <dd>
+                <a href="">
+                    <img src="img/event-date.png" alt="">
+                    <p>Comverse Regain Lead in Convergent Charging Market Regains Lead in</p>
+                </a>
+            </dd>
+            <dd -data-link=""><a href="">All Events</a></dd>
+        </dl>
+    </article>
+    </section>
+</section>
+</section>
+<!--Events section  END-->
+
+<!--success stories-->
+<section role="document" -data-section="success">
+    <h2>SUCCESS STORIES</h2>
+    <div -data-grid-wrap="">
+        <ul>
+            <li -data-grid="wide 3mob">
+            <article>
+                <blockquote>We[ have very good and very warm relations with comverse. We always achieve...</blockquote>
+                <a href="">
+                    <figure><img src="img/JT-GM-face.png" alt="">
+                        <blockquote>We have very good and very warm relations with comverse. We always achieve..."</blockquote>
+                        <hr/>
+                        <figcaption><p>SERGEY KORTOVYCH</p><p>Deputy CTO, 3 Mob Ukraine</p></figcaption>
+                    </figure>
+                </a>
+            </article>
+        </li>
+            <li -data-grid="">
+            <article>
+                <blockquote></blockquote>
+                    <a href="">
+                    <figure><img src="img/mts_w108px_X_h95px.jpg" alt="">
+                    </figure>
+                </a>
+            </article>
+        </li>
+            <li -data-grid="">
+            <article>
+                <blockquote></blockquote>
+                <a href="">
+                    <figure><img src="img/cable_wireless_w100px_X_h42px2.jpg" alt="">
+                    </figure>
+                </a>
+            </article>
+        </li>
+            <li -data-grid="">
+            <article>
+                <blockquote></blockquote>
+                <a href="">
+                    <figure><img src="img/Jersey_Telecom_w100px_X_h42px.jpg" alt="">
+                    </figure>
+                </a>
+            </article>
+        </li>
+       </ul><ul>
+        <li -data-grid="wide mtl">
+            <article>
+                <blockquote>Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we are...</blockquote>
+                <a href="">
+                    <figure><img src="img/CB-JP-face.png" alt="">
+                        <blockquote>We have very good and very warm relations with comverse. We always achieve..."</blockquote>
+                        <hr/>
+                        <figcaption><p>ADALE KEHASSAN</p><p>CIO of Multi-links</p></figcaption>
+                    </figure>
+                </a>
+            </article>
+        </li>
+        <li -data-grid="">
+            <article>
+                <blockquote></blockquote>
+                <a href="">
+                    <figure><img src="img/Kyivstarw_w108px_X_h95.jpg" alt="">
+                    </figure>
+                </a>
+            </article>
+        </li>
+        <li -data-grid="">
+        <article>
+            <blockquote></blockquote>
+                <a href="">
+                    <figure><img src="img/MAX_telecom_w108px_X_h95.jpg" alt="">
+                    </figure>
+                </a>
+            </article>
+        </li>
+        <li -data-grid="">
+        <article>
+            <blockquote></blockquote>
+                <a href="">
+                    <figure><img src="img/upc_w108px_X_h95px.jpg" alt="">
+                    </figure>
+                </a>
+            </article>
+        </li>
+    </ul><ul>
+        <li -data-grid="medium ttsky">
+            <article>
+                <blockquote>Comverse has been able to fully deliver what we want and we have peers...</blockquote>
+                <a href="">
+                    <figure><img src="" alt="">
+                        <blockquote>Comverse has been able to fully deliver what we want and we have peers..</blockquote>
+                        <hr/>
+                        <figcaption><p>RAVISHANKER</p><p>Tata Sky CIO N.</p></figcaption>
+                    </figure>
+                </a>
+            </article>
+        </li>
+        <li -data-grid="">
+            <article>
+                <blockquote></blockquote>
+                <a href="">
+                    <figure><img src="img/VIDEOCON_w108px_X_h95px.jpg" alt="">
+                    </figure>
+                </a>
+            </article>
+        </li>
+        <li  -data-grid="">
+            <article>
+                <blockquote></blockquote>
+                    <a href="">
+                        <figure><img src="img/3mob_w108px_X_h95px.jpg" alt="">
+                        </figure>
+                    </a>
+            </article>
+       </li>
+    </ul>
+    </div>
+    <button -data-btn="read-more"><a href="">All 256 Sccess Stories</a></button>
+</section>
+<!--success stories END-->
+
+<!--footer-->
+<footer role="contentinfo" -data-section="footer">
+    <section -data-u="footer-desktop">
+        <ul>
+            <h4><a href="">KEY SOLUTIONS</a></h4>
+            <li><a href="">Monetizing Data</a></li>
+            <li><a href="">Over the top (OTT)</a></li>
+            <li><a href="">Machine to Machine</a></li>
+            <li><a href="">Cloud Computing</a></li>
+            <li><a href="">Managed Services</a></li>
+            <li><a href="">Customer Experience Managment</a></li>
+            <li><a href="">Rich Communication Suite</a></li>
+            <li><a href="">Social Media</a></li>
+            <li><a href="">4G/LTE </a></li>
+        </ul>
+        <ul>
+            <h4><a href="">PRODUCTS & SERVICES</a></h4>
+            <li><a href="">Billing</a></li>
+            <li><a href="">VAS</a></li>
+            <li><a href="">Mobile Internet</a></li>
+            <li><a href="">Global Services</a></li>
+            <li><a href="">Training Services</a></li>
+        </ul>
+        <ul>
+            <h4><a href="">COMPANY</a></h4>
+            <li><a href="">Executive profiles</a></li>
+            <li><a href="">Clients</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Partners</a></li>
+            <li><a href="">Corporate Responsibility</a></li>
+            <li><a href="">Industry Involvement</a></li>
+            <li><a href="">Careers</a></li>
+    </ul>
+
+    <article role="article">
+        <header>
+            <h4>LATEST BLOG POSTS</h4>
+            <p><b>18</b> July</p>
+            <p>Comverse Regains Lead in Convergent Market</p>
+            <hr>
+        </header>
+
+        <!--subscribe-->
+        <h4>SUBSCRIBE TO COMVERSE</h4>
+        <form action="" role="form" method="post">
+            <input type="email" name="user-email">
+            <button type="submit" -data-btn="">SIGN UP</button>
+        </form>
+
+        <!--social media links-->
+        <section -data-section="social-media">
+            <a -data-icon="linkedin"href="https://www.youtube.com/user/ComverseInc/videos"></a>
+            <a -data-icon="youtube" href=https://twitter.com/i_am_Xura?lang=en"></a>
+            <a -data-icon="twitter" href="https://www.linkedin.com/company/10170759?trk=vsrp_companies_hero_name&trkInfo=VSRPsearchId%3A4536465951447857476741%2CVSRPtargetId%3A10170759%2CVSRPcmpt%3Ahero"></a>
+        </section>
+    </article>
+
+    <!--copyright links-->
+    <p class="copyright"><a href="">Copyright &copy; 2012 Comverse, inc.</a><a href="">Privacy Policy</a></p>
+    </section>
+
+    <!--mobile menu-->
+    <ul -data-u="mobile-menu">
+        <a href="#top-of-page"></a>
+        <li>
+            <a href="">
+                <h4>CONTACT US</h4>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <h4>SUBSCRIBE TO COMVERSE NEWS</h4>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <h4> VISIT US ON:</h4>
+            </a>
+            <a -data-icon="linkedin"href="https://www.youtube.com/user/ComverseInc/videos"></a>
+            <a -data-icon="youtube" href=https://twitter.com/i_am_Xura?lang=en"></a>
+            <a -data-icon="twitter" href="https://www.linkedin.com/company/10170759?trk=vsrp_companies_hero_name&trkInfo=VSRPsearchId%3A4536465951447857476741%2CVSRPtargetId%3A10170759%2CVSRPcmpt%3Ahero"></a>
+        </li>
+        <li>
+            <a href="">
+                <label for="lang">
+                    <h4>CHANGE LANGUAGE:</h4>
+                </label>
+            </a>
+            <select name="language" id="lang">
+                <option value="">English</option>
+                <option value="">Hebrew</option>
+            </select>
+        </li>
+        <li class="copyright">
+            Copyright &copy; 2012 Comverse, inc.
+            <a href="">Privacy Policy</a>
+        </li>
+    </ul>
+</footer>
+<!--footer END-->
 
 
 </body>

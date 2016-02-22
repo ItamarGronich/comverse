@@ -1,0 +1,56 @@
+/*====================================
+Twitter icon
+=======================================*/
+[-data-icon="twitter"]:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    background:
+            url('../img/socialMenuIcon-twitter.png');
+    background-size: contain;
+}
+
+[-data-icon="twitter"]:hover:before {
+    background:
+            url('../img/socialMenuIcon-twitter_hover.png');
+}
+
+/*====================================
+Linkedin icon
+=======================================*/
+[-data-icon="linkedin"]:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    background:
+            url('../img/socialMenuIcon-linkdin.png');
+    background-size: contain;
+}
+
+[-data-icon="linkedin"]:hover:before {
+    background:
+            url('../img/socialMenuIcon-linkdin_hover.png');
+}
+
+/*====================================
+YouTube icon
+=======================================*/
+[-data-icon="youtube"]:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    background:
+            url('../img/socialMenuIcon-youtube.png');
+    background-size: contain;
+}
+
+[-data-icon="youtube"]:hover:before {
+    background:
+            url('../img/socialMenuIcon-youtube_hover.png');
+}

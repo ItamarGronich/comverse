@@ -1,0 +1,33 @@
+- delete img on logo. make image in css only |V|
+
+-move logo code to utilities.css
+
+
+**refactoring - divide into sections:
+
+- colors with data attributes
+
+- sizes " " " "
+
+- positioning
+
+-layouts
+
+** take the grid layout out and make it
+an individual component
+
+-make main section shorter for
+iphone4 and smaller phones
+
+- fix background for events ! ! |V|
+
+-replace down arrow on lang menu
+ with absolute position pseudo element
+
+ - check for bugs in the articles
+ in the article slider. the might be
+ something wrong with the size of the
+ hidden articles.
+
+
+ -add padding-right to the email input on the subscribe form>

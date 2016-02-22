@@ -1,0 +1,27 @@
+@media screen and (min-width: 46em) {
+
+    [-data-section="events"] {
+        padding: 4em 0;
+    }
+
+
+    [-data-section="events"] h2 {
+        font-size: 3em;
+        margin-bottom: 3rem;
+    }
+
+    [-data-u="event"] {
+        display: table;
+        max-width: 940px;
+        margin: 0 auto 4em auto;
+    }
+
+    [-data-events] {
+        display: table-cell;
+        /*border: solid;*/
+        margin: 0;
+        max-width: none;
+        vertical-align: bottom;
+        padding: 0 1em;
+    }
+}

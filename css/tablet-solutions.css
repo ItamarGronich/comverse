@@ -1,0 +1,13 @@
+@media screen and (min-width: 46em) {
+
+
+    [-data-section="solutions"] h2 {
+    font-size: 3em;
+    }
+
+    [-data-section="solutions"] > [-data-btn] {
+        margin: 3em auto;
+    }
+
+
+}

@@ -1,0 +1,197 @@
+/*===============================================
+ primary colors
+ ===============================================*/
+/*
+white
+*/
+
+/*text color*/
+[-data-color~="text-white"] {
+    color: #FFFFFF;
+}
+
+/*background color*/
+[-data-color~="background-white"] {
+    background: #FFFFFF;
+}
+
+
+/*
+ blue
+ */
+
+/*text color*/
+[-data-color~="text-blue"] {
+    color: #1D8EC6;
+}
+
+/*background color*/
+[-data-color~="background-blue"] {
+    background: #1D8EC6;
+}
+
+/*
+black
+*/
+
+/*text color*/
+[-data-color~="text-black"] {
+    color: #202020;
+}
+
+/*background color*/
+[-data-color~="background-black"] {
+    background: #202020;
+}
+
+
+/*===============================================
+ Secondary colors
+ ===============================================*/
+/*
+pink
+*/
+
+/*text color*/
+[-data-color~="text-pink"] {
+    color: #D13A85;
+}
+
+/*background color*/
+[-data-color~="background-pink"] {
+    background: #D13A85;
+}
+
+
+/*
+ green
+ */
+
+/*text color*/
+[-data-color~="text-green"] {
+    color: #69C33C;
+}
+
+/*background color*/
+[-data-color~="background-green"] {
+    background: #69C33C;
+}
+
+/*
+orange
+*/
+
+/*text color*/
+[-data-color~="text-orange"] {
+    color: #FF8C00;
+}
+
+/*background color*/
+[-data-color~="background-orange"] {
+    background: #FF8C00;
+}
+
+/*
+yellow
+  */
+
+/*text color*/
+[-data-color~="text-yellow"] {
+    color: #FFCC00;
+}
+
+/*background color*/
+[-data-color~="background-yellow"] {
+    background: #FFCC00;
+}
+
+
+
+/*
+grey
+*/
+
+/*text color*/
+[-data-color~="text-grey"] {
+    color: #7A7A7A;
+}
+
+/*background color*/
+[-data-color~="background-grey"] {
+    background: #7A7A7A;
+}
+
+
+/*
+ lightgrey
+ */
+
+/*text color*/
+[-data-color~="text-lightgrey"] {
+    color: #E9E9E9;
+}
+
+/*background color*/
+[-data-color~="background-lightgrey"] {
+    background: #E9E9E9;
+}
+
+/*
+mediumblue
+*/
+
+/*text color*/
+[-data-color~="text-mediumblue"] {
+    color: #0D72A3;
+}
+
+/*background color*/
+[-data-color~="background-mediumblue"] {
+    background: #0D72A3;
+}
+
+/*
+darkblue
+*/
+
+/*text color*/
+[-data-color~="text-darkblue"] {
+    color: #1A658D;
+}
+
+/*background color*/
+[-data-color~="background-darkblue"] {
+    background: #1A658D;
+}
+
+
+/*
+translucent
+*/
+
+/*text color*/
+[-data-color~="text-translucent"] {
+    color: rgba(255,255,255,.3);
+}
+
+/*background color*/
+[-data-color~="background-translucent"] {
+    background: rgba(255,255,255,.3);
+}
+
+
+/*
+glass
+*/
+
+/*text color*/
+[-data-color~="text-glass"] {
+    color: rgba(255,255,255,.15);
+}
+
+/*background color*/
+[-data-color~="background-glass"] {
+    background: rgba(255,255,255,.15);
+}
+
+
